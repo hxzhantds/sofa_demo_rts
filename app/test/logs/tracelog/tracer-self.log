@@ -1,0 +1,29 @@
+2019-12-03 19:11:37.075[WARN]  zdal-tair-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:11:37.081[WARN]  zdal-tair-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:11:37.261[INFO]  the lognamekey : zdal_tair_digest_log_name take effect. the old logreserveconfig is 7 and the new logreverseconfig is 0D2H
+2019-12-03 19:12:09.694[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:12:09.696[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:12:09.697[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:12:09.697[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:12:09.755[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:12:09.756[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:12:10.368[WARN]  sofa-mvc-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:12:10.372[INFO]  current jdk do not support method tracing.
+2019-12-03 19:38:24.738[WARN]  zdal-tair-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:38:24.743[WARN]  zdal-tair-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:38:24.918[INFO]  the lognamekey : zdal_tair_digest_log_name take effect. the old logreserveconfig is 7 and the new logreverseconfig is 0D2H
+2019-12-03 19:38:57.474[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:38:57.476[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:38:57.476[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:38:57.476[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:38:57.534[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:38:57.535[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:49:31.656[WARN]  zdal-tair-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:49:31.661[WARN]  zdal-tair-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:49:31.813[INFO]  the lognamekey : zdal_tair_digest_log_name take effect. the old logreserveconfig is 7 and the new logreverseconfig is 0D2H
+2019-12-03 19:50:04.549[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:50:04.551[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:50:04.551[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:50:04.551[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:50:04.609[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-12-03 19:50:04.610[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60

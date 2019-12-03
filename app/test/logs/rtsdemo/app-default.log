@@ -1,0 +1,90 @@
+2019-12-03 19:10:45,749 [  - /// - ] INFO  usercases.UserControllerTest - Starting UserControllerTest on zhudandeMacBook-Pro.local with PID 1658 (started by zhudan in /Users/zhudan/Documents/workspace/github/rtsdemo/app/test)
+2019-12-03 19:10:45,750 [  - /// - ] INFO  usercases.UserControllerTest - No active profile set, falling back to default profiles: default
+2019-12-03 19:10:46,764 [  - /// - ] WARN  taobao.remoting - **********Timeout scan thread sleep time cost[237]ms actually.
+2019-12-03 19:10:48,985 [  - /// - ] INFO  http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-03 19:10:48,996 [  - /// - ] INFO  core.StandardService - Starting service [Tomcat]
+2019-12-03 19:10:48,997 [  - /// - ] INFO  core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-12-03 19:10:49,013 [  - /// - ] INFO  core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhudan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-12-03 19:10:49,211 [  - /// - ] INFO  [localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-03 19:10:50,418 [  - /// - ] INFO  [localhost].[/] - Initializing Spring root WebApplicationContext
+2019-12-03 19:10:50,557 [  - /// - ] INFO  [localhost].[/] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-12-03 19:10:50,557 [  - /// - ] INFO  [localhost].[/] - Root WebApplicationContext: initialization completed in 138 ms
+2019-12-03 19:11:25,928 [  - /// - ] WARN  taobao.remoting - **********Timeout scan thread sleep time cost[351]ms actually.
+2019-12-03 19:11:31,202 [  - /// - ] WARN  taobao.remoting - Server start success: 9,877
+2019-12-03 19:11:37,096 [  - /// - ] INFO  instance.AbstractModuleInstance - AmbushModuleType:zdalTair初始化 CatalogType:datacollect Catalog!
+2019-12-03 19:11:37,226 [  - /// - ] INFO  instance.AbstractModuleInstance - AmbushModuleType:zdalTair初始化 CatalogType:intercept Catalog!
+2019-12-03 19:12:04,340 [  - /// - ] INFO  intercept.AbstractSecurityInterceptor - Validated configuration attributes
+2019-12-03 19:12:04,389 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : initialization starting.
+2019-12-03 19:12:04,390 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : adding path '/Users/zhudan/Documents/workspace/github/rtsdemo/app/test/${prod_ui_template}'
+2019-12-03 19:12:04,391 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : initialization complete.
+2019-12-03 19:12:04,475 [  - /// - ] INFO  intercept.AbstractSecurityInterceptor - Validated configuration attributes
+2019-12-03 19:12:04,483 [  - /// - ] INFO  forbiddenWord.ForbiddenWordChecker - 开始加载交易违禁词规则
+2019-12-03 19:12:04,483 [  - /// - ] INFO  forbiddenWord.ForbiddenWordChecker - 共加载[0]条交易违禁词规则.
+2019-12-03 19:12:09,795 [  - /// - ] INFO  http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-03 19:12:09,796 [  - /// - ] INFO  net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-03 19:12:09,816 [  - /// - ] INFO  [localhost].[/] - Initializing Spring CarDispatcherServlet 'SMVCServlet'
+2019-12-03 19:12:09,829 [  - /// - ] INFO  usercases.UserControllerTest - Started UserControllerTest in 155.315 seconds (JVM running for 178.088)
+2019-12-03 19:12:15,451 [  - /// - ] WARN  NETMOCKRULE_DRM - app:rtsdemo 接收到DRM更新请求！key=netmockRule,value=
+2019-12-03 19:12:15,451 [  - /// - ] WARN  internal.NetmockRuleStrategy - 规则为空。NetmockRuleStrategy初始化失败, 请用drm重新推送规则!
+2019-12-03 19:12:15,451 [  - /// - ] INFO  NETMOCKRULE_DRM - app:rtsdemo 更新netmock规则为:null
+2019-12-03 19:12:15,453 [  - /// - ] INFO  NETMOCKRULE_DRM - app:rtsdemo 初始化NetmockRuleCoordinator完成！！！
+2019-12-03 19:12:15,454 [  - /// - ] INFO  instance.AbstractModuleInstance - AmbushModuleType:sofaMVC初始化 CatalogType:datacollect Catalog!
+2019-12-03 19:12:30,717 [  - /// - ] INFO  base.AbstractTestBase - {"age":21,"message":"Hello, Service SOFABoot web","name":"zhangsan"}
+2019-12-03 19:12:30,741 [  - /// - ] WARN  taobao.remoting - Server closed: 9,877
+2019-12-03 19:37:35,787 [  - /// - ] INFO  usercases.UserServiceTest - Starting UserServiceTest on zhudandeMacBook-Pro.local with PID 1846 (started by zhudan in /Users/zhudan/Documents/workspace/github/rtsdemo/app/test)
+2019-12-03 19:37:35,788 [  - /// - ] INFO  usercases.UserServiceTest - No active profile set, falling back to default profiles: default
+2019-12-03 19:37:36,667 [  - /// - ] WARN  taobao.remoting - **********Timeout scan thread sleep time cost[184]ms actually.
+2019-12-03 19:37:38,687 [  - /// - ] INFO  http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-03 19:37:38,698 [  - /// - ] INFO  core.StandardService - Starting service [Tomcat]
+2019-12-03 19:37:38,699 [  - /// - ] INFO  core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-12-03 19:37:38,714 [  - /// - ] INFO  core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhudan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-12-03 19:37:38,901 [  - /// - ] INFO  [localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-03 19:37:40,006 [  - /// - ] INFO  [localhost].[/] - Initializing Spring root WebApplicationContext
+2019-12-03 19:37:40,183 [  - /// - ] INFO  [localhost].[/] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-12-03 19:37:40,184 [  - /// - ] INFO  [localhost].[/] - Root WebApplicationContext: initialization completed in 176 ms
+2019-12-03 19:38:13,664 [  - /// - ] WARN  taobao.remoting - **********Timeout scan thread sleep time cost[366]ms actually.
+2019-12-03 19:38:18,968 [  - /// - ] WARN  taobao.remoting - Server start success: 9,877
+2019-12-03 19:38:24,759 [  - /// - ] INFO  instance.AbstractModuleInstance - AmbushModuleType:zdalTair初始化 CatalogType:datacollect Catalog!
+2019-12-03 19:38:24,882 [  - /// - ] INFO  instance.AbstractModuleInstance - AmbushModuleType:zdalTair初始化 CatalogType:intercept Catalog!
+2019-12-03 19:38:52,069 [  - /// - ] INFO  intercept.AbstractSecurityInterceptor - Validated configuration attributes
+2019-12-03 19:38:52,141 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : initialization starting.
+2019-12-03 19:38:52,144 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : adding path '/Users/zhudan/Documents/workspace/github/rtsdemo/app/test/${prod_ui_template}'
+2019-12-03 19:38:52,144 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : initialization complete.
+2019-12-03 19:38:52,269 [  - /// - ] INFO  intercept.AbstractSecurityInterceptor - Validated configuration attributes
+2019-12-03 19:38:52,278 [  - /// - ] INFO  forbiddenWord.ForbiddenWordChecker - 开始加载交易违禁词规则
+2019-12-03 19:38:52,278 [  - /// - ] INFO  forbiddenWord.ForbiddenWordChecker - 共加载[0]条交易违禁词规则.
+2019-12-03 19:38:57,574 [  - /// - ] INFO  http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-03 19:38:57,576 [  - /// - ] INFO  net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-03 19:38:57,596 [  - /// - ] INFO  [localhost].[/] - Initializing Spring CarDispatcherServlet 'SMVCServlet'
+2019-12-03 19:38:57,608 [  - /// - ] INFO  usercases.UserServiceTest - Started UserServiceTest in 153.204 seconds (JVM running for 174.971)
+2019-12-03 19:38:57,858 [  - /// - ] WARN  taobao.remoting - Server closed: 9,877
+2019-12-03 19:48:10,537 [  - /// - ] INFO  usercases.UserServiceTest - Starting UserServiceTest on zhudandeMacBook-Pro.local with PID 1942 (started by zhudan in /Users/zhudan/Documents/workspace/github/rtsdemo/app/test)
+2019-12-03 19:48:10,537 [  - /// - ] INFO  usercases.UserServiceTest - No active profile set, falling back to default profiles: default
+2019-12-03 19:48:11,648 [  - /// - ] WARN  taobao.remoting - **********Timeout scan thread sleep time cost[191]ms actually.
+2019-12-03 19:48:13,837 [  - /// - ] INFO  http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-03 19:48:13,849 [  - /// - ] INFO  core.StandardService - Starting service [Tomcat]
+2019-12-03 19:48:13,850 [  - /// - ] INFO  core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-12-03 19:48:13,867 [  - /// - ] INFO  core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhudan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-12-03 19:48:14,083 [  - /// - ] INFO  [localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-03 19:48:15,291 [  - /// - ] INFO  [localhost].[/] - Initializing Spring root WebApplicationContext
+2019-12-03 19:48:15,461 [  - /// - ] INFO  [localhost].[/] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-12-03 19:48:15,462 [  - /// - ] INFO  [localhost].[/] - Root WebApplicationContext: initialization completed in 171 ms
+2019-12-03 19:48:49,246 [  - /// - ] WARN  taobao.remoting - **********Timeout scan thread sleep time cost[340]ms actually.
+2019-12-03 19:48:54,533 [  - /// - ] WARN  taobao.remoting - Server start success: 9,877
+2019-12-03 19:49:23,948 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-03 19:49:27,832 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-03 19:49:28,299 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-03 19:49:31,677 [  - /// - ] INFO  instance.AbstractModuleInstance - AmbushModuleType:zdalTair初始化 CatalogType:datacollect Catalog!
+2019-12-03 19:49:31,773 [  - /// - ] INFO  instance.AbstractModuleInstance - AmbushModuleType:zdalTair初始化 CatalogType:intercept Catalog!
+2019-12-03 19:49:59,184 [  - /// - ] INFO  intercept.AbstractSecurityInterceptor - Validated configuration attributes
+2019-12-03 19:49:59,240 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : initialization starting.
+2019-12-03 19:49:59,242 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : adding path '/Users/zhudan/Documents/workspace/github/rtsdemo/app/test/${prod_ui_template}'
+2019-12-03 19:49:59,242 [  - /// - ] INFO  apache.velocity - AlipayVelocityResourceLoader : initialization complete.
+2019-12-03 19:49:59,321 [  - /// - ] INFO  intercept.AbstractSecurityInterceptor - Validated configuration attributes
+2019-12-03 19:49:59,331 [  - /// - ] INFO  forbiddenWord.ForbiddenWordChecker - 开始加载交易违禁词规则
+2019-12-03 19:49:59,331 [  - /// - ] INFO  forbiddenWord.ForbiddenWordChecker - 共加载[0]条交易违禁词规则.
+2019-12-03 19:50:04,649 [  - /// - ] INFO  http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-03 19:50:04,651 [  - /// - ] INFO  net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-03 19:50:04,672 [  - /// - ] INFO  [localhost].[/] - Initializing Spring CarDispatcherServlet 'SMVCServlet'
+2019-12-03 19:50:04,683 [  - /// - ] INFO  usercases.UserServiceTest - Started UserServiceTest in 185.352 seconds (JVM running for 207.637)
+2019-12-03 19:50:05,047 [  - /// - ] WARN  taobao.remoting - Server closed: 9,877

@@ -1,0 +1,2 @@
+Module-Name: com.alipay.rtsdemo.core.model
+Spring-Parent: com.alipay.rtsdemo.common.dal

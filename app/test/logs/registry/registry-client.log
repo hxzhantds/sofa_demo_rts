@@ -1,0 +1,9 @@
+2019-12-03 19:10:20,634 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: sofa_router_default_group_data_id, group: SOFA_ROUTER, registerId: c7da0401-30de-4077-b574-057063fb5863
+2019-12-03 19:10:20,635 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: DATA_ID_30.73.177.252, group: SOFA_ROUTER, registerId: 18da0777-2741-44d8-8dbb-acd1edf55266
+2019-12-03 19:10:20,635 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: sofa_router_global_user_data_id, group: SOFA_ROUTER, registerId: 97d07723-4e3d-44e6-b792-a987e278228e
+2019-12-03 19:37:10,678 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: sofa_router_default_group_data_id, group: SOFA_ROUTER, registerId: f6be10bd-5158-4118-920b-483f3bedd2d9
+2019-12-03 19:37:10,679 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: DATA_ID_30.73.177.252, group: SOFA_ROUTER, registerId: 133b50a1-2068-428d-bac3-63fee950c8b5
+2019-12-03 19:37:10,679 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: sofa_router_global_user_data_id, group: SOFA_ROUTER, registerId: eeaf189e-8289-4482-b180-c081bf1ea0f7
+2019-12-03 19:47:45,426 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: sofa_router_default_group_data_id, group: SOFA_ROUTER, registerId: 5e1645a9-e3d9-4426-b293-e54e7d6d35ec
+2019-12-03 19:47:45,428 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: DATA_ID_30.73.177.252, group: SOFA_ROUTER, registerId: cb6e8956-4e33-4a2b-a447-e9d2b282931c
+2019-12-03 19:47:45,428 INFO  main                             - Regist adaptor subscriber, scope: zone, dataId: sofa_router_global_user_data_id, group: SOFA_ROUTER, registerId: c27cf3b3-d811-4a35-b6c2-676b75291ed4

@@ -1,0 +1,3 @@
+2019-12-03 19:49:23,948 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-03 19:49:27,832 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-03 19:49:28,299 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net

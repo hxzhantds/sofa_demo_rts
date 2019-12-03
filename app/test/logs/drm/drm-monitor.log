@@ -1,0 +1,277 @@
+2019-12-03 19:11:31,183 INFO  [server] change server from null to ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000}
+2019-12-03 19:11:31,186 INFO  [connection] connection open, remote: 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000 , conn: L=30.73.177.252:49853, R=100.88.248.228:9880, S=Connected
+2019-12-03 19:11:31,198 INFO  Receive drm zone name from configserver: GZ00B
+2019-12-03 19:11:31,198 INFO  Receive drm zone name from configserver: GZ00B
+2019-12-03 19:11:31,246 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM, value = 
+2019-12-03 19:11:31,268 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM instanceId:
+2019-12-03 19:11:31,315 INFO  [RegisterResult] register success, dataId: Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:31,713 INFO  Receive zdrmdata rest url pool from configserver:
+  >>> http://11.166.189.58
+  >>> http://100.88.248.228
+  >>> http://11.159.194.127
+
+2019-12-03 19:11:31,722 INFO  Receive zdrmdata heartbeat url pool from confreg:
+  >>> 11.166.189.58:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 100.88.248.228:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.159.194.127:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+
+2019-12-03 19:11:31,743 INFO  [server] change server from ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000} to ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000}
+2019-12-03 19:11:31,743 INFO  Receive zdrmdata server url pool from confreg:
+  >>> 11.166.189.58:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.159.194.127:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+
+2019-12-03 19:11:37,235 INFO  Query data from zdrmdata: version = 351, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM, value = [{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]
+2019-12-03 19:11:37,241 INFO  Update drm attribute success! app = zdaltair, attribute = ldcTairWeight
+2019-12-03 19:11:37,242 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,253 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,262 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM, value = 
+2019-12-03 19:11:37,263 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,273 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,282 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM, value = 
+2019-12-03 19:11:37,283 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,298 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,301 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM, value = 
+2019-12-03 19:11:37,301 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,312 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,322 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM, value = 
+2019-12-03 19:11:37,322 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,333 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,347 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM, value = 
+2019-12-03 19:11:37,347 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,359 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,376 INFO  Query data from zdrmdata: version = 3, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM, value = Y
+2019-12-03 19:11:37,376 INFO  Update drm attribute success! app = zdaltair, attribute = useZoneMng
+2019-12-03 19:11:37,376 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,387 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,394 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM, value = 
+2019-12-03 19:11:37,414 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM, value = 
+2019-12-03 19:11:37,414 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,415 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,425 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,425 INFO  [RegisterResult] register success, dataId: Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,431 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM, value = 
+2019-12-03 19:11:37,431 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,442 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,454 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM, value = 
+2019-12-03 19:11:37,454 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,465 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,481 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM, value = 
+2019-12-03 19:11:37,482 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,493 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,499 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM, value = 
+2019-12-03 19:11:37,500 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,510 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,520 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM, value = 
+2019-12-03 19:11:37,520 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,531 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,543 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM, value = 
+2019-12-03 19:11:37,543 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,554 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,563 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM, value = 
+2019-12-03 19:11:37,563 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,574 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,590 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM, value = 
+2019-12-03 19:11:37,591 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,602 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,619 INFO  Query data from zdrmdata: version = 2, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM, value = RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X
+2019-12-03 19:11:37,619 INFO  Update drm attribute success! app = zdaltair, attribute = grayZones
+2019-12-03 19:11:37,619 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,630 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,644 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM, value = 
+2019-12-03 19:11:37,645 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,655 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,670 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM, value = 
+2019-12-03 19:11:37,689 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM, value = 
+2019-12-03 19:11:37,690 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,690 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM instanceId:
+2019-12-03 19:11:37,701 INFO  [RegisterResult] register success, dataId: Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:11:37,701 INFO  [RegisterResult] register success, dataId: Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:12:15,429 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator.netmockRule,version=3.0@DRM, value = 
+2019-12-03 19:12:15,450 INFO  Query data from zdrmdata: version = 3, dataId = Alipay.netmockRule:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator.netmockRule,version=3.0@DRM, value = 
+2019-12-03 19:12:15,450 INFO  Run with global policy:routeClient²ßÂÔ
+2019-12-03 19:12:15,451 INFO  Global scope value: 
+2019-12-03 19:12:15,451 INFO  Global scope value enabled: 
+2019-12-03 19:12:15,451 INFO  Update drm attribute success! app = rtsdemo, attribute = netmockRule
+2019-12-03 19:12:15,452 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator.netmockRule,version=3.0@DRM instanceId:
+2019-12-03 19:12:15,452 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.netmockRule:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator.netmockRule,version=3.0@DRM instanceId:
+2019-12-03 19:12:15,462 INFO  [RegisterResult] register success, dataId: Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator.netmockRule,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:12:15,463 INFO  [RegisterResult] register success, dataId: Alipay.netmockRule:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator.netmockRule,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:18,949 INFO  [server] change server from null to ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000}
+2019-12-03 19:38:18,952 INFO  [connection] connection open, remote: 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000 , conn: L=30.73.177.252:50662, R=100.88.248.228:9880, S=Connected
+2019-12-03 19:38:18,964 INFO  Receive drm zone name from configserver: GZ00B
+2019-12-03 19:38:18,964 INFO  Receive drm zone name from configserver: GZ00B
+2019-12-03 19:38:18,998 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM, value = 
+2019-12-03 19:38:19,024 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM instanceId:
+2019-12-03 19:38:19,063 INFO  [RegisterResult] register success, dataId: Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:19,481 INFO  Receive zdrmdata rest url pool from configserver:
+  >>> http://11.166.189.58
+  >>> http://100.88.248.228
+  >>> http://11.159.194.127
+
+2019-12-03 19:38:19,490 INFO  Receive zdrmdata heartbeat url pool from confreg:
+  >>> 11.166.189.58:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 100.88.248.228:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.159.194.127:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+
+2019-12-03 19:38:19,507 INFO  [server] change server from ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000} to ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000}
+2019-12-03 19:38:19,507 INFO  Receive zdrmdata server url pool from confreg:
+  >>> 11.166.189.58:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.159.194.127:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+
+2019-12-03 19:38:24,894 INFO  Query data from zdrmdata: version = 351, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM, value = [{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]
+2019-12-03 19:38:24,901 INFO  Update drm attribute success! app = zdaltair, attribute = ldcTairWeight
+2019-12-03 19:38:24,901 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM instanceId:
+2019-12-03 19:38:24,912 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:24,918 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM, value = 
+2019-12-03 19:38:24,918 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM instanceId:
+2019-12-03 19:38:24,929 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:24,938 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM, value = 
+2019-12-03 19:38:24,938 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM instanceId:
+2019-12-03 19:38:24,949 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:24,955 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM, value = 
+2019-12-03 19:38:24,956 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM instanceId:
+2019-12-03 19:38:24,965 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:24,975 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM, value = 
+2019-12-03 19:38:24,975 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM instanceId:
+2019-12-03 19:38:24,988 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:24,996 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM, value = 
+2019-12-03 19:38:24,996 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,007 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,018 INFO  Query data from zdrmdata: version = 3, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM, value = Y
+2019-12-03 19:38:25,018 INFO  Update drm attribute success! app = zdaltair, attribute = useZoneMng
+2019-12-03 19:38:25,018 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,028 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,038 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM, value = 
+2019-12-03 19:38:25,057 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM, value = 
+2019-12-03 19:38:25,058 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,058 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,067 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,068 INFO  [RegisterResult] register success, dataId: Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,082 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM, value = 
+2019-12-03 19:38:25,082 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,093 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,108 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM, value = 
+2019-12-03 19:38:25,108 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,117 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,132 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM, value = 
+2019-12-03 19:38:25,133 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,144 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,157 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM, value = 
+2019-12-03 19:38:25,157 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,169 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,175 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM, value = 
+2019-12-03 19:38:25,176 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,187 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,194 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM, value = 
+2019-12-03 19:38:25,194 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,210 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM, value = 
+2019-12-03 19:38:25,211 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,229 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,229 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,243 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM, value = 
+2019-12-03 19:38:25,243 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,253 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,263 INFO  Query data from zdrmdata: version = 2, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM, value = RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X
+2019-12-03 19:38:25,263 INFO  Update drm attribute success! app = zdaltair, attribute = grayZones
+2019-12-03 19:38:25,264 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,276 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,286 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM, value = 
+2019-12-03 19:38:25,286 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,297 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,330 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM, value = 
+2019-12-03 19:38:25,351 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM, value = 
+2019-12-03 19:38:25,352 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,352 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM instanceId:
+2019-12-03 19:38:25,363 INFO  [RegisterResult] register success, dataId: Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:38:25,363 INFO  [RegisterResult] register success, dataId: Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:48:54,514 INFO  [server] change server from null to ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000}
+2019-12-03 19:48:54,516 INFO  [connection] connection open, remote: 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000 , conn: L=30.73.177.252:50881, R=100.88.248.228:9880, S=Connected
+2019-12-03 19:48:54,533 INFO  Receive drm zone name from configserver: GZ00B
+2019-12-03 19:48:54,533 INFO  Receive drm zone name from configserver: GZ00B
+2019-12-03 19:48:54,565 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM, value = 
+2019-12-03 19:48:54,589 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM instanceId:
+2019-12-03 19:48:54,629 INFO  [RegisterResult] register success, dataId: Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:48:55,049 INFO  Receive zdrmdata rest url pool from configserver:
+  >>> http://11.166.189.58
+  >>> http://100.88.248.228
+  >>> http://11.159.194.127
+
+2019-12-03 19:48:55,064 INFO  Receive zdrmdata heartbeat url pool from confreg:
+  >>> 11.166.189.58:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 100.88.248.228:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.159.194.127:9870?_SERIALIZETYPE=4&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+
+2019-12-03 19:48:55,085 INFO  [server] change server from ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000} to ServerInfo{url='100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000}
+2019-12-03 19:48:55,086 INFO  Receive zdrmdata server url pool from confreg:
+  >>> 11.166.189.58:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.159.194.127:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+
+2019-12-03 19:49:31,786 INFO  Query data from zdrmdata: version = 351, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM, value = [{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]
+2019-12-03 19:49:31,793 INFO  Update drm attribute success! app = zdaltair, attribute = ldcTairWeight
+2019-12-03 19:49:31,794 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,804 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,813 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM, value = 
+2019-12-03 19:49:31,813 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,824 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,836 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM, value = 
+2019-12-03 19:49:31,836 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,847 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,857 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM, value = 
+2019-12-03 19:49:31,857 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,867 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,877 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM, value = 
+2019-12-03 19:49:31,877 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,888 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,902 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM, value = 
+2019-12-03 19:49:31,903 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,914 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,922 INFO  Query data from zdrmdata: version = 3, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM, value = Y
+2019-12-03 19:49:31,922 INFO  Update drm attribute success! app = zdaltair, attribute = useZoneMng
+2019-12-03 19:49:31,923 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,934 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,941 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM, value = 
+2019-12-03 19:49:31,964 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM, value = 
+2019-12-03 19:49:31,964 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,965 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM instanceId:
+2019-12-03 19:49:31,975 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,977 INFO  [RegisterResult] register success, dataId: Alipay.zcache:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:31,993 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM, value = 
+2019-12-03 19:49:31,993 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,013 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM, value = 
+2019-12-03 19:49:32,013 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,035 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM, value = 
+2019-12-03 19:49:32,036 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,036 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,036 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,052 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,058 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM, value = 
+2019-12-03 19:49:32,058 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,068 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,083 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM, value = 
+2019-12-03 19:49:32,083 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,111 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,113 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM, value = 
+2019-12-03 19:49:32,113 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,124 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,135 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM, value = 
+2019-12-03 19:49:32,135 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,145 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,155 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM, value = 
+2019-12-03 19:49:32,156 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,168 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,176 INFO  Query data from zdrmdata: version = 2, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM, value = RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X
+2019-12-03 19:49:32,176 INFO  Update drm attribute success! app = zdaltair, attribute = grayZones
+2019-12-03 19:49:32,176 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,187 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,199 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM, value = 
+2019-12-03 19:49:32,200 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,210 INFO  [RegisterResult] register success, dataId: Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,221 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM, value = 
+2019-12-03 19:49:32,238 INFO  Query data from zdrmdata: version = 0, dataId = Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM, value = 
+2019-12-03 19:49:32,238 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,238 INFO  [register] try regist to server, zone: GZ00B dataId: Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM instanceId:
+2019-12-03 19:49:32,249 INFO  [RegisterResult] register success, dataId: Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM remoteAddress: 100.88.248.228:9880
+2019-12-03 19:49:32,249 INFO  [RegisterResult] register success, dataId: Alipay.zcache:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM remoteAddress: 100.88.248.228:9880

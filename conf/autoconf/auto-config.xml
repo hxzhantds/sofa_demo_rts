@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <group name="basic">
+    </group>
+    <group name="web">
+        <property name="domain_name" defaultValue="@domainname@" description="Application Domain Name"/>
+    </group>
+    <group name="config">
+        <property name="dbmode" defaultValue="@dbmode@" description="dbmode env info"/>
+    </group>
+    <group name="session">
+        <property name="app_name" defaultValue="rtsdemo" description="应用名"/>
+        <property name="session_hostname" defaultValue="rtsdemo" description="session识别的应用名"/>
+        <property name="session_domain" defaultValue="alipay.net" description="session回写cookie的域名"/>
+        <property name="session_maxInactiveInterval" defaultValue="600" description="session超时时长"/>
+        <property name="session_access_rule" defaultValue="remote" description="存储方式"/>
+        <property name="session_globalStrategy" defaultValue="merge" description="冲突解决策略"/>
+        <property name="session_cookieName" defaultValue="ALIPAYJSESSIONID" description="cookie name"/>
+        <property name="session_store" defaultValue="tair" description="存储组件"/>
+        <property name="session_ldc_mode" defaultValue="true" description="session ldc模式"/>
+        <property name="tairsession_zdalConsoleUrl" defaultValue="http://zdataconsole.stable.alipay.net:8080"
+                  description="zdata 地址"/>
+        <property name="zdrmdata_rest_url" defaultValue="http://zdrmdata.stable.alipay.net" description="drm地址"/>
+        <property name="tairsession_configServerList_master" defaultValue="tair.stable.alipay.net:5198" description="保留字段，配置一个随意值即可"/>
+    </group>
+        
+    <script>
+        <generate template="application.properties" destfile="../config/application.properties"
+                  charset="UTF-8"/>
+
+        <generate template="tenginx-conf/t-alipay-tengine.conf" destfile="../config/tenginx-conf/t-alipay-tengine.conf"
+                  charset="UTF-8"/>
+    </script>
+</config>

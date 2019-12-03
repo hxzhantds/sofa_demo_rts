@@ -1,0 +1,426 @@
+2019-12-03 19:10:50.468 [/// - ] INFO  main                             - 
+
+Sofa MVC Framework works
+resolved and active plugins >>
+|--[mvc-j2ee-bootstrap-plugin] order:0
+|--[mvc-resource-plugin] order:0
+|--[mvc-validation-plugin] order:0
+|--[mvc-tair-newsession-plugin] order:0
+|--[mvc-alipay-security-plugin] order:0 (group: security ,depend on: mvc-security-plugin ,scope: COMPILE)
+|--[mvc-sofaboot-integration-plugin] order:0
+|--[mvc-toolbox-plugin] order:0
+|--[mvc-alipay-auth-plugin] order:0
+|--[mvc-widget-plugin] order:0
+|--[mvc-json-plugin] order:0
+|--[mvc-alipay-toolbox-plugin] order:1 (group: toolbox ,depend on: mvc-toolbox-plugin ,scope: RUNTIME)
+
+unactive plugins >>
+|--[mvc-uisvr-plugin]
+|--[mvc-security-plugin]
+
+2019-12-03 19:10:50.554 [/// - ] INFO  main                             - 
+Plain Cars >>
+Endpoint Cars >>
+|--home (com.alipay.rtsdemo.web.home)
+
+2019-12-03 19:12:04.596 [/// - ] INFO  main                             - 
+--------------------------------------------------------------------------------------------------------------
+car:home
+ assembly model: auto
+
+   [HandlerIdentityConditionComposite] find [HandlerIdentityCondition]s:
+     tileHandlerIdentityCondition [(order: 0),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.TileHandlerIdentityCondition@418bdde9)]
+
+   [HttpMessageConverterComposite] find [HttpMessageConverter]s:
+     stringHttpMessageConverter          [(order: none),(obj: org.springframework.http.converter.StringHttpMessageConverter@53d15034)]
+     byteArrayHttpMessageConverter       [(order: none),(obj: org.springframework.http.converter.ByteArrayHttpMessageConverter@9976b27)]
+     sourceHttpMessageConverter          [(order: none),(obj: org.springframework.http.converter.xml.SourceHttpMessageConverter@4fe9a396)]
+     xmlAwareFormHttpMessageConverter    [(order: none),(obj: com.alipay.spring.http.converter.xml.XmlAwareFormHttpMessageConverter@462b239f)]
+     jsonHttpMessageConverter            [(order: none),(obj: com.alipay.web.mvc.json.fastjson.converter.DefaultJsonHttpMessageConverter@1fa29b9e)]
+     mappingJackson2HttpMessageConverter [(order: none),(obj: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@611c3eae)]
+
+   [HandlerMappingComposite] find [HandlerMapping]s:
+     faviconHandlerMapping             [(order: -2147483647),(obj: org.springframework.web.servlet.handler.SimpleUrlHandlerMapping@3f2afa8b)]
+     webEndpointServletHandlerMapping  [(order: -100),(obj: org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping@2831c178)]
+     controllerEndpointHandlerMapping  [(order: -100),(obj: org.springframework.boot.actuate.endpoint.web.servlet.ControllerEndpointHandlerMapping@70e8c019)]
+     requestMappingHandlerMapping      [(order: 0),(obj: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping@6b2efcae)]
+     beanNameHandlerMapping            [(order: 2),(obj: org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping@8aa1562)]
+     welcomePageHandlerMapping         [(order: 2),(obj: org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping@346690d6)]
+     resourceHandlerMapping            [(order: 2147483646),(obj: org.springframework.web.servlet.handler.SimpleUrlHandlerMapping@5c70c771)]
+     defaultSofaHandlerMapping         [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.DefaultSofaHandlerMapping@361c4981)]
+     defaultAnnotationHandlerMapping   [(order: 2147483647),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.DefaultCOCUrlHandlerMapping@35fac3ba)]
+     componentAnnotationHandlerMapping [(order: 2147483647),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.AlipayComponentAnnotationHandlerMapping@50a095cb)]
+
+   [ConventionComponentIdentifierComposite] find [ConventionComponentIdentifier]s:
+     conventionControllerIdentifier [(order: none),(obj: com.alipay.web.mvc.coc.ConventionControllerIdentifier@48697181)]
+     conventionTileIdentifier       [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.convention.ConventionTileIdentifier@7282f7b1)]
+
+   [EarlyContextRecorderComposite] find [EarlyContextRecorder]s:
+     pullToolEarlyContextRecorder                [(order: none),(obj: com.alipay.web.mvc.view.velocity.context.PullToolEarlyContextRecorder@7b1d2f65)]
+     renderableToolSingletonEarlyContextRecorder [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.view.velocity.context.RenderableToolSingletonEarlyContextRecorder@33bd9ac3)]
+
+   [WebBindingInitializerComposite] find [WebBindingInitializer]s:
+     validatorInjectWebBindingInitializer [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.ValidatorInjectWebBindingInitializer@23aaa756)]
+     blankTrimWebBindingInitializer       [(order: none),(obj: com.alipay.sofa.web.mvc.security.smvc.bind.BlankTrimWebBindingInitializer@2d5d001f)]
+     =>exclusions:
+     delegateWebBindingInitializer [(order: none),(obj: com.alipay.web.mvc.validation.DelegateWebBindingInitializer@7e28f150)]
+
+   [ExceptionHandlerComposite] find [ExceptionHandler]s:
+     remoteTileAccessExceptionHandler [(order: 70000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.RemoteTileAccessExceptionHandler@3db5195)]
+     defaultTileExceptionHandler      [(order: 80000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.TileExceptionHandler@2ec23ec3)]
+     bindExceptionHandler             [(order: 95000),(obj: com.alipay.sofa.web.mvc.validation.exception.BindExceptionHandler@3c5044fa)]
+     defaultExceptionHandler          [(order: 100000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.DefaultExceptionHandler@7c2e88b9)]
+     uncaughtExceptionHandler         [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.UncaughtExceptionHandler@556843a5)]
+
+   [Bean2VelocityContextToolBoxComposite] find [Bean2VelocityContextToolBox]s:
+     securityToolCollector             [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@42028589)]
+     alipayAuthBean2VeloContext        [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@50f6ecab)]
+     widgetBean2VeloContext            [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@fc21ff4)]
+     alipayToolboxBean2VelocityContext [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@58647985)]
+
+   [JsonValueFilterComposite] find [JsonValueFilter]s:
+     xssJsonValueFilter [(order: none),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonValueFilter@6f95654c)]
+
+   [SerializationPostProcessorComposite] find [SerializationPostProcessor]s:
+     xssSkipSerializationPostProcessor [(order: none),(obj: com.alipay.sofa.web.mvc.security.json.XssSkipSerializationPostProcessor@74c23525)]
+
+   [EventHandlerComposite] find [EventHandler]s:
+     objectJsonReferenceInsertionEventHandler [(order: 10000),(obj: com.alipay.web.mvc.view.velocity.ObjectJsonReferenceInsertionEventHandler@25587290)]
+     securityReferenceInsertionEventHandler   [(order: 15000),(obj: com.alipay.sofa.web.mvc.security.velocity.VelocitySecurityReferenceInsertionEventHandler@1ba3c03d)]
+     renderableInsertionEventHandler          [(order: 20000),(obj: com.alipay.web.mvc.view.velocity.RenderableInsertionEventHandler@64eb14da)]
+
+   [HandlerInterceptorComposite] find [HandlerInterceptor]s:
+     jsonXssAnnotationSupport      [(order: 20),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonAnnotationSupport@38363e96)]
+     modelDataRecordInterceptor    [(order: 200),(obj: com.alipay.sofa.web.mvc.common.filter.log.ModelDataRecordInterceptor@35c95869)]
+     clearThreadInterceptor        [(order: none),(obj: com.alipay.web.mvc.uribroker.ClearThreadInterceptor@4769537a)]
+     dataMorkInterceptor           [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.interceptor.DataMorkInterceptor@4504a4ed)]
+     logPreviousRequestInterceptor [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.interceptor.LogPreviousRequestInterceptor@7ee3a2ed)]
+
+   [MethodInvokePreHandlerComposite] find [MethodInvokePreHandler]s:
+     jsonXssAnnotationSupport [(order: 20),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonAnnotationSupport@38363e96)]
+     logPreRequestHandler     [(order: 100),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.invoke.support.LogPreRequestMethodInvokePreHandler@3bf40c74)]
+     formRepeatAndCsrfHandler [(order: 200),(obj: com.alipay.sofa.web.mvc.security.smvc.servlet.handler.FormRepeatAndCsrfCheckMethodInvokePreHandler@2f29e630)]
+     requestStepGroupHandler  [(order: 300),(obj: com.alipay.sofa.web.mvc.security.smvc.servlet.handler.RequestStepGroupMethodInvokePreHandler@30811f91)]
+
+ assembly model: manu
+
+   [FilterComposite] was set with[Filter]s:
+     alipayTimerFilter                     [(order: 10000),(obj: com.alipay.sofa.web.mvc.common.filter.profiler.DefaultTimerFilter)]
+     alipayCharacterEncodingFilter         [(order: 20000),(obj: com.alipay.sofa.web.mvc.common.filter.AlipayCharacterEncodingFilter)]
+     hiddenHttpMethodFilter                [(order: 22000),(obj: org.springframework.web.filter.HiddenHttpMethodFilter@53d2b827)]
+     sofaTracerLogFilter                   [(order: 25000),(obj: com.alipay.sofa.web.mvc.common.filter.log.SofaTracerLogFilter@4777f71e)]
+     sofaRouterFilter                      [(order: 25001),(obj: com.alipay.sofa.web.mvc.common.filter.sofarouter.SOFARouterFilter@1b96d447)]
+     commonLog4jMDCInitFilter              [(order: 30000),(obj: com.alipay.sofa.web.mvc.common.filter.log.SimpleMDCInitFilter)]
+     alipaySessionRequestFilter            [(order: 40000),(obj: com.alipay.sofa.web.mvc.common.session.support.filter.DefaultSessionFilter)]
+     loadTestFilter                        [(order: 45000),(obj: com.alipay.sofa.web.mvc.common.filter.log.LoadTestFilter)]
+     httpSecurityFilter                    [(order: 50000),(obj: com.alipay.sofa.web.mvc.security.web.SafeHTTPFilter)]
+     refererAllUrlCheckFilter              [(order: 51000),(obj: com.alipay.security.core.referer.RefererAllUriCheckFilter@9a37591)]
+     defaultCorsFilter                     [(order: 52000),(obj: com.alipay.sofa.web.mvc.security.filter.DefaultCorsFilter)]
+     httpSessionContextIntegrationFilter   [(order: 60000),(obj: net.sf.acegisecurity.context.HttpSessionContextIntegrationFilter@749c0669)]
+     anonymousProcessingFilter             [(order: 70000),(obj: com.alipay.service.security.acegi.filter.AlipayAnonymousProcessingFilter@4468c0ea)]
+     operationEnvironmentIntegrationFilter [(order: 80000),(obj: com.alipay.service.security.acegi.filter.OperationEnvironmentIntegrationFilter@41cf4272)]
+     contextCleanFilter                    [(order: 90000),(obj: com.alipay.sofa.web.mvc.security.ContextCleanFilter@22e95960)]
+     securityEnforcementFilter             [(order: 100000),(obj: com.alipay.sofa.web.mvc.security.acegi.CommonSecurityEnforcementFilter@63846fa4)]
+     loggingContextMDCFilter               [(order: 110000),(obj: com.alipay.sofa.web.mvc.security.LoggingContextMDCFilter)]
+     httpPutFormContentFilter              [(order: 120000),(obj: com.alipay.sofa.web.mvc.common.filter.HttpPutFormContentFilter)]
+     securityTracerFilter                  [(order: 130000),(obj: com.alipay.sofa.web.mvc.security.tracer.SecurityTracerFilter)]
+     =>exclusions:
+     alipayGlobalFilter [(order: none),(obj: com.alipay.sofa.web.mvc.common.filter.AlipayGlobalFilter@4bc9451b)]
+     filterChainProxy   [(order: 1000),(obj: com.alipay.sofa.web.mvc.security.acegi.AcegiFilterChainProxy[ order=1000; ])]
+
+   [HandlerAdapterComposite] was set with[HandlerAdapter]s:
+     requestMappingHandlerAdapter   [(order: 2147483647),(obj: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter@4d93e5bf)]
+     httpRequestHandlerAdapter      [(order: none),(obj: org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter@1c36ab22)]
+     simpleControllerHandlerAdapter [(order: none),(obj: org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter@68303c3e)]
+     =>exclusions:
+     annotationMethodHandlerAdapter   [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.DefaultAnnotationMethodHandlerAdapter@5c4516ec)]
+     defaultHttpRequestHandlerAdapter [(order: none),(obj: org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter@1e18876d)]
+     defaultSofaHandlerAdapter        [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.DefaultSofaHandlerAdapter@17e8c38c)]
+     componentMethodHandlerAdapter    [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.TileComponentMethodHandlerAdapter@17ea3bc0)]
+
+--------------------------------------------------------------------------------------------------------------
+
+2019-12-03 19:37:40.089 [/// - ] INFO  main                             - 
+
+Sofa MVC Framework works
+resolved and active plugins >>
+|--[mvc-j2ee-bootstrap-plugin] order:0
+|--[mvc-resource-plugin] order:0
+|--[mvc-validation-plugin] order:0
+|--[mvc-tair-newsession-plugin] order:0
+|--[mvc-alipay-security-plugin] order:0 (group: security ,depend on: mvc-security-plugin ,scope: COMPILE)
+|--[mvc-sofaboot-integration-plugin] order:0
+|--[mvc-toolbox-plugin] order:0
+|--[mvc-alipay-auth-plugin] order:0
+|--[mvc-widget-plugin] order:0
+|--[mvc-json-plugin] order:0
+|--[mvc-alipay-toolbox-plugin] order:1 (group: toolbox ,depend on: mvc-toolbox-plugin ,scope: RUNTIME)
+
+unactive plugins >>
+|--[mvc-uisvr-plugin]
+|--[mvc-security-plugin]
+
+2019-12-03 19:37:40.180 [/// - ] INFO  main                             - 
+Plain Cars >>
+Endpoint Cars >>
+|--home (com.alipay.rtsdemo.web.home)
+
+2019-12-03 19:38:52.377 [/// - ] INFO  main                             - 
+--------------------------------------------------------------------------------------------------------------
+car:home
+ assembly model: auto
+
+   [MethodInvokePreHandlerComposite] find [MethodInvokePreHandler]s:
+     jsonXssAnnotationSupport [(order: 20),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonAnnotationSupport@70a54731)]
+     logPreRequestHandler     [(order: 100),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.invoke.support.LogPreRequestMethodInvokePreHandler@3d1b43d8)]
+     formRepeatAndCsrfHandler [(order: 200),(obj: com.alipay.sofa.web.mvc.security.smvc.servlet.handler.FormRepeatAndCsrfCheckMethodInvokePreHandler@5b028f58)]
+     requestStepGroupHandler  [(order: 300),(obj: com.alipay.sofa.web.mvc.security.smvc.servlet.handler.RequestStepGroupMethodInvokePreHandler@1e4d93f7)]
+
+   [Bean2VelocityContextToolBoxComposite] find [Bean2VelocityContextToolBox]s:
+     securityToolCollector             [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@54c37dab)]
+     alipayAuthBean2VeloContext        [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@49005dc4)]
+     widgetBean2VeloContext            [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@6a2057e)]
+     alipayToolboxBean2VelocityContext [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@25d9298e)]
+
+   [EarlyContextRecorderComposite] find [EarlyContextRecorder]s:
+     pullToolEarlyContextRecorder                [(order: none),(obj: com.alipay.web.mvc.view.velocity.context.PullToolEarlyContextRecorder@4e3a6c83)]
+     renderableToolSingletonEarlyContextRecorder [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.view.velocity.context.RenderableToolSingletonEarlyContextRecorder@b889cb6)]
+
+   [JsonValueFilterComposite] find [JsonValueFilter]s:
+     xssJsonValueFilter [(order: none),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonValueFilter@3c8e4a82)]
+
+   [HttpMessageConverterComposite] find [HttpMessageConverter]s:
+     stringHttpMessageConverter          [(order: none),(obj: org.springframework.http.converter.StringHttpMessageConverter@44e3f3e5)]
+     byteArrayHttpMessageConverter       [(order: none),(obj: org.springframework.http.converter.ByteArrayHttpMessageConverter@6be1f37f)]
+     sourceHttpMessageConverter          [(order: none),(obj: org.springframework.http.converter.xml.SourceHttpMessageConverter@69ed96e1)]
+     xmlAwareFormHttpMessageConverter    [(order: none),(obj: com.alipay.spring.http.converter.xml.XmlAwareFormHttpMessageConverter@61648dd2)]
+     jsonHttpMessageConverter            [(order: none),(obj: com.alipay.web.mvc.json.fastjson.converter.DefaultJsonHttpMessageConverter@3ac326c0)]
+     mappingJackson2HttpMessageConverter [(order: none),(obj: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@60b1ff3b)]
+
+   [HandlerInterceptorComposite] find [HandlerInterceptor]s:
+     jsonXssAnnotationSupport      [(order: 20),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonAnnotationSupport@70a54731)]
+     modelDataRecordInterceptor    [(order: 200),(obj: com.alipay.sofa.web.mvc.common.filter.log.ModelDataRecordInterceptor@36d5c2ce)]
+     clearThreadInterceptor        [(order: none),(obj: com.alipay.web.mvc.uribroker.ClearThreadInterceptor@22dc9d46)]
+     dataMorkInterceptor           [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.interceptor.DataMorkInterceptor@63c6c5e5)]
+     logPreviousRequestInterceptor [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.interceptor.LogPreviousRequestInterceptor@6edb2c7b)]
+
+   [ExceptionHandlerComposite] find [ExceptionHandler]s:
+     remoteTileAccessExceptionHandler [(order: 70000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.RemoteTileAccessExceptionHandler@43efe064)]
+     defaultTileExceptionHandler      [(order: 80000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.TileExceptionHandler@6a4f7c17)]
+     bindExceptionHandler             [(order: 95000),(obj: com.alipay.sofa.web.mvc.validation.exception.BindExceptionHandler@52d181ed)]
+     defaultExceptionHandler          [(order: 100000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.DefaultExceptionHandler@584fb03d)]
+     uncaughtExceptionHandler         [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.UncaughtExceptionHandler@563392e5)]
+
+   [HandlerIdentityConditionComposite] find [HandlerIdentityCondition]s:
+     tileHandlerIdentityCondition [(order: 0),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.TileHandlerIdentityCondition@2ee1b017)]
+
+   [HandlerMappingComposite] find [HandlerMapping]s:
+     faviconHandlerMapping             [(order: -2147483647),(obj: org.springframework.web.servlet.handler.SimpleUrlHandlerMapping@4b86a656)]
+     webEndpointServletHandlerMapping  [(order: -100),(obj: org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping@4ddb9a8)]
+     controllerEndpointHandlerMapping  [(order: -100),(obj: org.springframework.boot.actuate.endpoint.web.servlet.ControllerEndpointHandlerMapping@7b24d5e4)]
+     requestMappingHandlerMapping      [(order: 0),(obj: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping@1117cc7c)]
+     beanNameHandlerMapping            [(order: 2),(obj: org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping@4797023d)]
+     welcomePageHandlerMapping         [(order: 2),(obj: org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping@2b06f498)]
+     resourceHandlerMapping            [(order: 2147483646),(obj: org.springframework.web.servlet.handler.SimpleUrlHandlerMapping@55cc4c61)]
+     defaultSofaHandlerMapping         [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.DefaultSofaHandlerMapping@3b0c38f2)]
+     defaultAnnotationHandlerMapping   [(order: 2147483647),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.DefaultCOCUrlHandlerMapping@5cc152f9)]
+     componentAnnotationHandlerMapping [(order: 2147483647),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.AlipayComponentAnnotationHandlerMapping@36f497b1)]
+
+   [ConventionComponentIdentifierComposite] find [ConventionComponentIdentifier]s:
+     conventionControllerIdentifier [(order: none),(obj: com.alipay.web.mvc.coc.ConventionControllerIdentifier@7e532f2d)]
+     conventionTileIdentifier       [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.convention.ConventionTileIdentifier@42150951)]
+
+   [SerializationPostProcessorComposite] find [SerializationPostProcessor]s:
+     xssSkipSerializationPostProcessor [(order: none),(obj: com.alipay.sofa.web.mvc.security.json.XssSkipSerializationPostProcessor@42d7e8bc)]
+
+   [EventHandlerComposite] find [EventHandler]s:
+     objectJsonReferenceInsertionEventHandler [(order: 10000),(obj: com.alipay.web.mvc.view.velocity.ObjectJsonReferenceInsertionEventHandler@7d0333c8)]
+     securityReferenceInsertionEventHandler   [(order: 15000),(obj: com.alipay.sofa.web.mvc.security.velocity.VelocitySecurityReferenceInsertionEventHandler@1b26fac2)]
+     renderableInsertionEventHandler          [(order: 20000),(obj: com.alipay.web.mvc.view.velocity.RenderableInsertionEventHandler@193d7ac7)]
+
+   [WebBindingInitializerComposite] find [WebBindingInitializer]s:
+     validatorInjectWebBindingInitializer [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.ValidatorInjectWebBindingInitializer@19855799)]
+     blankTrimWebBindingInitializer       [(order: none),(obj: com.alipay.sofa.web.mvc.security.smvc.bind.BlankTrimWebBindingInitializer@bd09a26)]
+     =>exclusions:
+     delegateWebBindingInitializer [(order: none),(obj: com.alipay.web.mvc.validation.DelegateWebBindingInitializer@244f356)]
+
+ assembly model: manu
+
+   [HandlerAdapterComposite] was set with[HandlerAdapter]s:
+     requestMappingHandlerAdapter   [(order: 2147483647),(obj: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter@61aa6300)]
+     httpRequestHandlerAdapter      [(order: none),(obj: org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter@7e2e0b8a)]
+     simpleControllerHandlerAdapter [(order: none),(obj: org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter@7f5f7731)]
+     =>exclusions:
+     annotationMethodHandlerAdapter   [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.DefaultAnnotationMethodHandlerAdapter@7aaf6bfd)]
+     defaultHttpRequestHandlerAdapter [(order: none),(obj: org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter@1c06f19c)]
+     defaultSofaHandlerAdapter        [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.DefaultSofaHandlerAdapter@3065efd0)]
+     componentMethodHandlerAdapter    [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.TileComponentMethodHandlerAdapter@4a8bf1dc)]
+
+   [FilterComposite] was set with[Filter]s:
+     alipayTimerFilter                     [(order: 10000),(obj: com.alipay.sofa.web.mvc.common.filter.profiler.DefaultTimerFilter)]
+     alipayCharacterEncodingFilter         [(order: 20000),(obj: com.alipay.sofa.web.mvc.common.filter.AlipayCharacterEncodingFilter)]
+     hiddenHttpMethodFilter                [(order: 22000),(obj: org.springframework.web.filter.HiddenHttpMethodFilter@3f142e87)]
+     sofaTracerLogFilter                   [(order: 25000),(obj: com.alipay.sofa.web.mvc.common.filter.log.SofaTracerLogFilter@70e8c019)]
+     sofaRouterFilter                      [(order: 25001),(obj: com.alipay.sofa.web.mvc.common.filter.sofarouter.SOFARouterFilter@2a79da3a)]
+     commonLog4jMDCInitFilter              [(order: 30000),(obj: com.alipay.sofa.web.mvc.common.filter.log.SimpleMDCInitFilter)]
+     alipaySessionRequestFilter            [(order: 40000),(obj: com.alipay.sofa.web.mvc.common.session.support.filter.DefaultSessionFilter)]
+     loadTestFilter                        [(order: 45000),(obj: com.alipay.sofa.web.mvc.common.filter.log.LoadTestFilter)]
+     httpSecurityFilter                    [(order: 50000),(obj: com.alipay.sofa.web.mvc.security.web.SafeHTTPFilter)]
+     refererAllUrlCheckFilter              [(order: 51000),(obj: com.alipay.security.core.referer.RefererAllUriCheckFilter@54a033b8)]
+     defaultCorsFilter                     [(order: 52000),(obj: com.alipay.sofa.web.mvc.security.filter.DefaultCorsFilter)]
+     httpSessionContextIntegrationFilter   [(order: 60000),(obj: net.sf.acegisecurity.context.HttpSessionContextIntegrationFilter@62dfe152)]
+     anonymousProcessingFilter             [(order: 70000),(obj: com.alipay.service.security.acegi.filter.AlipayAnonymousProcessingFilter@46a0ef6f)]
+     operationEnvironmentIntegrationFilter [(order: 80000),(obj: com.alipay.service.security.acegi.filter.OperationEnvironmentIntegrationFilter@6afced93)]
+     contextCleanFilter                    [(order: 90000),(obj: com.alipay.sofa.web.mvc.security.ContextCleanFilter@50a095cb)]
+     securityEnforcementFilter             [(order: 100000),(obj: com.alipay.sofa.web.mvc.security.acegi.CommonSecurityEnforcementFilter@3f2afa8b)]
+     loggingContextMDCFilter               [(order: 110000),(obj: com.alipay.sofa.web.mvc.security.LoggingContextMDCFilter)]
+     httpPutFormContentFilter              [(order: 120000),(obj: com.alipay.sofa.web.mvc.common.filter.HttpPutFormContentFilter)]
+     securityTracerFilter                  [(order: 130000),(obj: com.alipay.sofa.web.mvc.security.tracer.SecurityTracerFilter)]
+     =>exclusions:
+     alipayGlobalFilter [(order: none),(obj: com.alipay.sofa.web.mvc.common.filter.AlipayGlobalFilter@f996445)]
+     filterChainProxy   [(order: 1000),(obj: com.alipay.sofa.web.mvc.security.acegi.AcegiFilterChainProxy[ order=1000; ])]
+
+--------------------------------------------------------------------------------------------------------------
+
+2019-12-03 19:48:15.356 [/// - ] INFO  main                             - 
+
+Sofa MVC Framework works
+resolved and active plugins >>
+|--[mvc-j2ee-bootstrap-plugin] order:0
+|--[mvc-resource-plugin] order:0
+|--[mvc-validation-plugin] order:0
+|--[mvc-tair-newsession-plugin] order:0
+|--[mvc-alipay-security-plugin] order:0 (group: security ,depend on: mvc-security-plugin ,scope: COMPILE)
+|--[mvc-sofaboot-integration-plugin] order:0
+|--[mvc-toolbox-plugin] order:0
+|--[mvc-alipay-auth-plugin] order:0
+|--[mvc-widget-plugin] order:0
+|--[mvc-json-plugin] order:0
+|--[mvc-alipay-toolbox-plugin] order:1 (group: toolbox ,depend on: mvc-toolbox-plugin ,scope: RUNTIME)
+
+unactive plugins >>
+|--[mvc-uisvr-plugin]
+|--[mvc-security-plugin]
+
+2019-12-03 19:48:15.459 [/// - ] INFO  main                             - 
+Plain Cars >>
+Endpoint Cars >>
+|--home (com.alipay.rtsdemo.web.home)
+
+2019-12-03 19:49:59.447 [/// - ] INFO  main                             - 
+--------------------------------------------------------------------------------------------------------------
+car:home
+ assembly model: auto
+
+   [HttpMessageConverterComposite] find [HttpMessageConverter]s:
+     stringHttpMessageConverter          [(order: none),(obj: org.springframework.http.converter.StringHttpMessageConverter@70cac22a)]
+     byteArrayHttpMessageConverter       [(order: none),(obj: org.springframework.http.converter.ByteArrayHttpMessageConverter@57a0c261)]
+     sourceHttpMessageConverter          [(order: none),(obj: org.springframework.http.converter.xml.SourceHttpMessageConverter@5862dda4)]
+     xmlAwareFormHttpMessageConverter    [(order: none),(obj: com.alipay.spring.http.converter.xml.XmlAwareFormHttpMessageConverter@299ddfff)]
+     jsonHttpMessageConverter            [(order: none),(obj: com.alipay.web.mvc.json.fastjson.converter.DefaultJsonHttpMessageConverter@fe09374)]
+     mappingJackson2HttpMessageConverter [(order: none),(obj: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@1201769d)]
+
+   [SerializationPostProcessorComposite] find [SerializationPostProcessor]s:
+     xssSkipSerializationPostProcessor [(order: none),(obj: com.alipay.sofa.web.mvc.security.json.XssSkipSerializationPostProcessor@2fc435e9)]
+
+   [HandlerInterceptorComposite] find [HandlerInterceptor]s:
+     jsonXssAnnotationSupport      [(order: 20),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonAnnotationSupport@3370be55)]
+     modelDataRecordInterceptor    [(order: 200),(obj: com.alipay.sofa.web.mvc.common.filter.log.ModelDataRecordInterceptor@3d2b13f)]
+     clearThreadInterceptor        [(order: none),(obj: com.alipay.web.mvc.uribroker.ClearThreadInterceptor@670ae31f)]
+     dataMorkInterceptor           [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.interceptor.DataMorkInterceptor@1958524b)]
+     logPreviousRequestInterceptor [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.interceptor.LogPreviousRequestInterceptor@129aaac1)]
+
+   [Bean2VelocityContextToolBoxComposite] find [Bean2VelocityContextToolBox]s:
+     securityToolCollector             [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@5f5c0eda)]
+     alipayAuthBean2VeloContext        [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@5e66733b)]
+     widgetBean2VeloContext            [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@3694461d)]
+     alipayToolboxBean2VelocityContext [(order: none),(obj: com.alipay.sofa.web.mvc.ui.velocity.pull.Bean2VelocityContextToolBox@72641613)]
+
+   [JsonValueFilterComposite] find [JsonValueFilter]s:
+     xssJsonValueFilter [(order: none),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonValueFilter@46290193)]
+
+   [ExceptionHandlerComposite] find [ExceptionHandler]s:
+     remoteTileAccessExceptionHandler [(order: 70000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.RemoteTileAccessExceptionHandler@3dc39412)]
+     defaultTileExceptionHandler      [(order: 80000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.TileExceptionHandler@42012093)]
+     bindExceptionHandler             [(order: 95000),(obj: com.alipay.sofa.web.mvc.validation.exception.BindExceptionHandler@768d27e8)]
+     defaultExceptionHandler          [(order: 100000),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.DefaultExceptionHandler@3c538e62)]
+     uncaughtExceptionHandler         [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.exception.handler.UncaughtExceptionHandler@ca0a21f)]
+
+   [MethodInvokePreHandlerComposite] find [MethodInvokePreHandler]s:
+     jsonXssAnnotationSupport [(order: 20),(obj: com.alipay.sofa.web.mvc.security.json.XssJsonAnnotationSupport@3370be55)]
+     logPreRequestHandler     [(order: 100),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.invoke.support.LogPreRequestMethodInvokePreHandler@5c1687d1)]
+     formRepeatAndCsrfHandler [(order: 200),(obj: com.alipay.sofa.web.mvc.security.smvc.servlet.handler.FormRepeatAndCsrfCheckMethodInvokePreHandler@104392ba)]
+     requestStepGroupHandler  [(order: 300),(obj: com.alipay.sofa.web.mvc.security.smvc.servlet.handler.RequestStepGroupMethodInvokePreHandler@57e6d56a)]
+
+   [HandlerMappingComposite] find [HandlerMapping]s:
+     faviconHandlerMapping             [(order: -2147483647),(obj: org.springframework.web.servlet.handler.SimpleUrlHandlerMapping@74a3160d)]
+     webEndpointServletHandlerMapping  [(order: -100),(obj: org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping@22e95960)]
+     controllerEndpointHandlerMapping  [(order: -100),(obj: org.springframework.boot.actuate.endpoint.web.servlet.ControllerEndpointHandlerMapping@63846fa4)]
+     requestMappingHandlerMapping      [(order: 0),(obj: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping@77978658)]
+     beanNameHandlerMapping            [(order: 2),(obj: org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping@498b697)]
+     welcomePageHandlerMapping         [(order: 2),(obj: org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping@6987b74e)]
+     resourceHandlerMapping            [(order: 2147483646),(obj: org.springframework.web.servlet.handler.SimpleUrlHandlerMapping@5f8da82)]
+     defaultSofaHandlerMapping         [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.DefaultSofaHandlerMapping@647ce968)]
+     defaultAnnotationHandlerMapping   [(order: 2147483647),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.DefaultCOCUrlHandlerMapping@2a2b3aff)]
+     componentAnnotationHandlerMapping [(order: 2147483647),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.AlipayComponentAnnotationHandlerMapping@4bc9451b)]
+
+   [EventHandlerComposite] find [EventHandler]s:
+     objectJsonReferenceInsertionEventHandler [(order: 10000),(obj: com.alipay.web.mvc.view.velocity.ObjectJsonReferenceInsertionEventHandler@7698a3d9)]
+     securityReferenceInsertionEventHandler   [(order: 15000),(obj: com.alipay.sofa.web.mvc.security.velocity.VelocitySecurityReferenceInsertionEventHandler@470a446f)]
+     renderableInsertionEventHandler          [(order: 20000),(obj: com.alipay.web.mvc.view.velocity.RenderableInsertionEventHandler@4902c584)]
+
+   [ConventionComponentIdentifierComposite] find [ConventionComponentIdentifier]s:
+     conventionControllerIdentifier [(order: none),(obj: com.alipay.web.mvc.coc.ConventionControllerIdentifier@332fa6ce)]
+     conventionTileIdentifier       [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.convention.ConventionTileIdentifier@2cc9a948)]
+
+   [WebBindingInitializerComposite] find [WebBindingInitializer]s:
+     validatorInjectWebBindingInitializer [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.ValidatorInjectWebBindingInitializer@1055d261)]
+     blankTrimWebBindingInitializer       [(order: none),(obj: com.alipay.sofa.web.mvc.security.smvc.bind.BlankTrimWebBindingInitializer@2d758472)]
+     =>exclusions:
+     delegateWebBindingInitializer [(order: none),(obj: com.alipay.web.mvc.validation.DelegateWebBindingInitializer@6773bab2)]
+
+   [EarlyContextRecorderComposite] find [EarlyContextRecorder]s:
+     pullToolEarlyContextRecorder                [(order: none),(obj: com.alipay.web.mvc.view.velocity.context.PullToolEarlyContextRecorder@2a9565d7)]
+     renderableToolSingletonEarlyContextRecorder [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.view.velocity.context.RenderableToolSingletonEarlyContextRecorder@2e38d44e)]
+
+   [HandlerIdentityConditionComposite] find [HandlerIdentityCondition]s:
+     tileHandlerIdentityCondition [(order: 0),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.TileHandlerIdentityCondition@29d563bd)]
+
+ assembly model: manu
+
+   [FilterComposite] was set with[Filter]s:
+     alipayTimerFilter                     [(order: 10000),(obj: com.alipay.sofa.web.mvc.common.filter.profiler.DefaultTimerFilter)]
+     alipayCharacterEncodingFilter         [(order: 20000),(obj: com.alipay.sofa.web.mvc.common.filter.AlipayCharacterEncodingFilter)]
+     hiddenHttpMethodFilter                [(order: 22000),(obj: org.springframework.web.filter.HiddenHttpMethodFilter@39a30d1a)]
+     sofaTracerLogFilter                   [(order: 25000),(obj: com.alipay.sofa.web.mvc.common.filter.log.SofaTracerLogFilter@74cff17c)]
+     sofaRouterFilter                      [(order: 25001),(obj: com.alipay.sofa.web.mvc.common.filter.sofarouter.SOFARouterFilter@7a053795)]
+     commonLog4jMDCInitFilter              [(order: 30000),(obj: com.alipay.sofa.web.mvc.common.filter.log.SimpleMDCInitFilter)]
+     alipaySessionRequestFilter            [(order: 40000),(obj: com.alipay.sofa.web.mvc.common.session.support.filter.DefaultSessionFilter)]
+     loadTestFilter                        [(order: 45000),(obj: com.alipay.sofa.web.mvc.common.filter.log.LoadTestFilter)]
+     httpSecurityFilter                    [(order: 50000),(obj: com.alipay.sofa.web.mvc.security.web.SafeHTTPFilter)]
+     refererAllUrlCheckFilter              [(order: 51000),(obj: com.alipay.security.core.referer.RefererAllUriCheckFilter@55315a00)]
+     defaultCorsFilter                     [(order: 52000),(obj: com.alipay.sofa.web.mvc.security.filter.DefaultCorsFilter)]
+     httpSessionContextIntegrationFilter   [(order: 60000),(obj: net.sf.acegisecurity.context.HttpSessionContextIntegrationFilter@4942e6af)]
+     anonymousProcessingFilter             [(order: 70000),(obj: com.alipay.service.security.acegi.filter.AlipayAnonymousProcessingFilter@73a1a1b4)]
+     operationEnvironmentIntegrationFilter [(order: 80000),(obj: com.alipay.service.security.acegi.filter.OperationEnvironmentIntegrationFilter@669daa93)]
+     contextCleanFilter                    [(order: 90000),(obj: com.alipay.sofa.web.mvc.security.ContextCleanFilter@3a359f7c)]
+     securityEnforcementFilter             [(order: 100000),(obj: com.alipay.sofa.web.mvc.security.acegi.CommonSecurityEnforcementFilter@138b9abe)]
+     loggingContextMDCFilter               [(order: 110000),(obj: com.alipay.sofa.web.mvc.security.LoggingContextMDCFilter)]
+     httpPutFormContentFilter              [(order: 120000),(obj: com.alipay.sofa.web.mvc.common.filter.HttpPutFormContentFilter)]
+     securityTracerFilter                  [(order: 130000),(obj: com.alipay.sofa.web.mvc.security.tracer.SecurityTracerFilter)]
+     =>exclusions:
+     alipayGlobalFilter [(order: none),(obj: com.alipay.sofa.web.mvc.common.filter.AlipayGlobalFilter@6e612122)]
+     filterChainProxy   [(order: 1000),(obj: com.alipay.sofa.web.mvc.security.acegi.AcegiFilterChainProxy[ order=1000; ])]
+
+   [HandlerAdapterComposite] was set with[HandlerAdapter]s:
+     requestMappingHandlerAdapter   [(order: 2147483647),(obj: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter@14bd523b)]
+     httpRequestHandlerAdapter      [(order: none),(obj: org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter@cc7909f)]
+     simpleControllerHandlerAdapter [(order: none),(obj: org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter@8ce4320)]
+     =>exclusions:
+     annotationMethodHandlerAdapter   [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.DefaultAnnotationMethodHandlerAdapter@10728fe8)]
+     defaultHttpRequestHandlerAdapter [(order: none),(obj: org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter@6e1d9b32)]
+     defaultSofaHandlerAdapter        [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.DefaultSofaHandlerAdapter@2db6ba81)]
+     componentMethodHandlerAdapter    [(order: none),(obj: com.alipay.sofa.web.mvc.core.servlet.handler.support.TileComponentMethodHandlerAdapter@16fb9fdd)]
+
+--------------------------------------------------------------------------------------------------------------
+

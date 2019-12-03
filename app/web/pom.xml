@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.alipay.rtsdemo</groupId>
+        <artifactId>rtsdemo-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>rtsdemo-web</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- service dependency -->
+        <dependency>
+            <groupId>com.alipay.rtsdemo</groupId>
+            <artifactId>rtsdemo-biz-shared</artifactId>
+        </dependency>
+
+        <!-- runtime dependency -->
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>runtime-alipay-sofa-boot-starter</artifactId>
+        </dependency>
+
+        <!-- sofa mvc dependency -->
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>mvc-alipay-sofa-boot-starter</artifactId>
+        </dependency>
+
+        <!-- session dependency -->
+        <dependency>
+            <groupId>com.alipay.sofa.web.mvc</groupId>
+            <artifactId>mvc-tair-newsession-plugin</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

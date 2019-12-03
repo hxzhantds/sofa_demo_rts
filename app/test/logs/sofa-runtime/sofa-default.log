@@ -1,0 +1,1020 @@
+2019-12-03 19:10:30,699 INFO  main                             - SOFABoot Runtime Starting!
+2019-12-03 19:11:03,682 INFO  main                             - ++++++++++++++++++ AlipayModelCreatingStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:11:03,754 INFO  main                             - ++++++++++++++++++ AlipayModelCreatingStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:11:03,754 INFO  main                             - ++++++++++++++++++ AlipaySpringContextInstallStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:11:03,759 INFO  main                             - 
+All activated module list(120) >>>>>>>
+  й└йд HdrHistogram-2.1.9.jar
+  й└йд accessors-smart-1.2.jar
+  й└йд alipay-security-core-0.0.4.jar
+  й└йд alipay-security-open-0.0.4.jar
+  й└йд ambush-1.0.13.jar
+  й└йд antcloud-antvip-client-1.0.6.jar
+  й└йд antvip-client-1.2.1.jar
+  й└йд antvip-common-1.2.1.jar
+  й└йд apache-mime4j-0.6.jar
+  й└йд asm-5.0.4.jar
+  й└йд assertj-core-3.11.1.jar
+  й└йд byte-buddy-1.9.3.jar
+  й└йд byte-buddy-agent-1.9.3.jar
+  й└йд classmate-1.4.0.jar
+  й└йд cloning-1.9.2.jar
+  й└йд com.alipay.rtsdemo.biz.service.impl
+  й└йд com.alipay.rtsdemo.biz.shared
+  й└йд com.alipay.rtsdemo.common.dal
+  й└йд com.alipay.rtsdemo.common.service.facade
+  й└йд com.alipay.rtsdemo.common.service.integration
+  й└йд com.alipay.rtsdemo.common.util
+  й└йд com.alipay.rtsdemo.core.model
+  й└йд com.alipay.rtsdemo.core.service
+  й└йд com.springsource.net.sf.cglib-2.1.3.alipay.jar
+  й└йд com.springsource.org.apache.velocity-1.6.2.cloudengine.bugfix2.jar
+  й└йд com.springsource.org.apache.velocity.tools.view-1.4.0.servlet3.jar
+  й└йд com.springsource.org.aspectj.runtime-1.7.1.RELEASE.jar
+  й└йд com.springsource.org.aspectj.weaver-1.7.1.RELEASE.jar
+  й└йд commons-collections-3.2.2.jar
+  й└йд commons-compress-1.3.jar
+  й└йд commons-fileupload-1.3.3.jar
+  й└йд commons-io-1.4.jar
+  й└йд commons-lang-2.4.jar
+  й└йд commons-lang3-3.3.2.jar
+  й└йд commons-pool-1.5.4.jar
+  й└йд commons-pool2-2.6.0.jar
+  й└йд concurrentlinkedhashmap-lru-1.4.2.jar
+  й└йд curator-client-2.9.1.jar
+  й└йд curator-framework-2.9.1.jar
+  й└йд curator-recipes-2.9.1.jar
+  й└йд cxf-core-3.0.14.jar
+  й└йд disruptor-3.2.1.jar
+  й└йд drm-client-3.7.16.jar
+  й└йд ecj-4.2.2.jar
+  й└йд guardian-core-1.4.6.jar
+  й└йд guava-18.0.jar
+  й└йд guice-3.0.jar
+  й└йд guice-multibindings-3.0.jar
+  й└йд hibernate-validator-5.0.1.Final.jar
+  й└йд hibernate-validator-6.0.13.Final.jar
+  й└йд jackson-annotations-2.9.0.jar
+  й└йд jackson-core-2.9.7.jar
+  й└йд jackson-core-asl-1.9.12.jar
+  й└йд jackson-core-lgpl-1.6.4.jar
+  й└йд jackson-databind-2.9.7.jar
+  й└йд jackson-datatype-jdk8-2.9.7.jar
+  й└йд jackson-datatype-jsr310-2.9.7.jar
+  й└йд jackson-jaxrs-1.9.12.jar
+  й└йд jackson-mapper-asl-1.9.12.jar
+  й└йд jackson-mapper-lgpl-1.6.4.jar
+  й└йд jackson-module-parameter-names-2.9.7.jar
+  й└йд jackson-xc-1.9.12.jar
+  й└йд javassist-3.19.0-GA.jar
+  й└йд javax.annotation-api-1.3.2.jar
+  й└йд jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+  й└йд jboss-logging-3.3.2.Final.jar
+  й└йд jcommander-1.12.jar
+  й└йд jedis-2.9.0.jar
+  й└йд jetty-6.1.5.bugfix2.jar
+  й└йд jetty-util-6.1.5.jar
+  й└йд json-path-2.4.0.jar
+  й└йд json-smart-2.3.jar
+  й└йд jul-to-slf4j-1.7.25.jar
+  й└йд kryo-3.0.3.jar
+  й└йд kryo-serializers-0.37.jar
+  й└йд log4j-api-2.8.2.jar
+  й└йд log4j-core-2.8.2.jar
+  й└йд log4j-jcl-2.8.2.jar
+  й└йд log4j-jul-2.8.2.jar
+  й└йд log4j-slf4j-impl-2.8.2.jar
+  й└йд lz4-1.3.0.jar
+  й└йд minlog-1.3.0.jar
+  й└йд mockito-core-2.23.0.jar
+  й└йд mvc-enterprise-sofa-boot-starter-4.3.0.jar
+  й└йд mvc-json-plugin-4.3.0.jar
+  й└йд mvc-kernel-4.3.0.jar
+  й└йд mvc-resource-plugin-4.3.0.jar
+  й└йд mvc-security-plugin-4.3.0.jar
+  й└йд mvc-sofaboot-integration-plugin-4.3.0.jar
+  й└йд mvc-toolbox-plugin-4.3.0.jar
+  й└йд mvc-uisvr-plugin-4.3.0.jar
+  й└йд mvc-validation-plugin-4.3.0.jar
+  й└йд mvc-widget-plugin-4.3.0.jar
+  й└йд mybatis-2-spring-1.0.1.jar
+  й└йд mysql-connector-java-5.1.40.jar
+  й└йд netty-3.2.5.Final.jar
+  й└йд netty-3.6.3.Final.jar
+  й└йд objenesis-2.1.jar
+  й└йд org.apache.log4j-1.2.13.v200706111418.jar
+  й└йд org.codehaus.groovy.all-1.8.9.cloudengine4.jar
+  й└йд protobuf-java-2.6.1.jar
+  й└йд reflectasm-1.10.1.jar
+  й└йд rxjava-1.3.8.jar
+  й└йд slf4j-api-1.7.25.jar
+  й└йд snakeyaml-1.23.jar
+  й└йд snappy-java-1.1.2.6.jar
+  й└йд sofa-platform-cache-3.1.0.jar
+  й└йд stax2-api-3.1.4.jar
+  й└йд testng-6.4.jar
+  й└йд tomcat-embed-core-9.0.12.jar
+  й└йд tomcat-embed-el-9.0.12.jar
+  й└йд tomcat-embed-websocket-9.0.12.jar
+  й└йд validation-api-2.0.1.Final.jar
+  й└йд woodstox-core-asl-4.4.1.jar
+  й└йд xmlschema-core-2.2.2.jar
+  й└йд xmlunit-core-2.6.2.jar
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar
+  й└йд zkclient-0.10.jar
+  й└йд zoneclient-core-1.0.25.jar
+  й╕йд zookeeper-3.3.3-cdh3u0.jar
+
+Modules that could install(116) >>>>>>>
+  й└йд HdrHistogram-2.1.9.jar
+  й└йд accessors-smart-1.2.jar
+  й└йд alipay-security-core-0.0.4.jar
+  й└йд ambush-1.0.13.jar
+  й└йд antcloud-antvip-client-1.0.6.jar
+  й└йд antvip-client-1.2.1.jar
+  й└йд antvip-common-1.2.1.jar
+  й└йд apache-mime4j-0.6.jar
+  й└йд asm-5.0.4.jar
+  й└йд assertj-core-3.11.1.jar
+  й└йд byte-buddy-1.9.3.jar
+  й└йд byte-buddy-agent-1.9.3.jar
+  й└йд classmate-1.4.0.jar
+  й└йд cloning-1.9.2.jar
+  й└йд com.alipay.rtsdemo.biz.service.impl
+  й└йд com.alipay.rtsdemo.biz.shared
+  й└йд com.alipay.rtsdemo.common.dal
+  й└йд com.alipay.rtsdemo.common.service.facade
+  й└йд com.alipay.rtsdemo.common.service.integration
+  й└йд com.alipay.rtsdemo.common.util
+  й└йд com.alipay.rtsdemo.core.model
+  й└йд com.alipay.rtsdemo.core.service
+  й└йд com.springsource.net.sf.cglib-2.1.3.alipay.jar
+  й└йд com.springsource.org.apache.velocity-1.6.2.cloudengine.bugfix2.jar
+  й└йд com.springsource.org.apache.velocity.tools.view-1.4.0.servlet3.jar
+  й└йд com.springsource.org.aspectj.runtime-1.7.1.RELEASE.jar
+  й└йд com.springsource.org.aspectj.weaver-1.7.1.RELEASE.jar
+  й└йд commons-collections-3.2.2.jar
+  й└йд commons-compress-1.3.jar
+  й└йд commons-fileupload-1.3.3.jar
+  й└йд commons-io-1.4.jar
+  й└йд commons-lang-2.4.jar
+  й└йд commons-lang3-3.3.2.jar
+  й└йд commons-pool-1.5.4.jar
+  й└йд commons-pool2-2.6.0.jar
+  й└йд concurrentlinkedhashmap-lru-1.4.2.jar
+  й└йд curator-client-2.9.1.jar
+  й└йд curator-framework-2.9.1.jar
+  й└йд curator-recipes-2.9.1.jar
+  й└йд cxf-core-3.0.14.jar
+  й└йд disruptor-3.2.1.jar
+  й└йд drm-client-3.7.16.jar
+  й└йд ecj-4.2.2.jar
+  й└йд guardian-core-1.4.6.jar
+  й└йд guava-18.0.jar
+  й└йд guice-3.0.jar
+  й└йд guice-multibindings-3.0.jar
+  й└йд hibernate-validator-5.0.1.Final.jar
+  й└йд hibernate-validator-6.0.13.Final.jar
+  й└йд jackson-annotations-2.9.0.jar
+  й└йд jackson-core-2.9.7.jar
+  й└йд jackson-core-asl-1.9.12.jar
+  й└йд jackson-core-lgpl-1.6.4.jar
+  й└йд jackson-databind-2.9.7.jar
+  й└йд jackson-datatype-jdk8-2.9.7.jar
+  й└йд jackson-datatype-jsr310-2.9.7.jar
+  й└йд jackson-jaxrs-1.9.12.jar
+  й└йд jackson-mapper-asl-1.9.12.jar
+  й└йд jackson-mapper-lgpl-1.6.4.jar
+  й└йд jackson-module-parameter-names-2.9.7.jar
+  й└йд jackson-xc-1.9.12.jar
+  й└йд javassist-3.19.0-GA.jar
+  й└йд javax.annotation-api-1.3.2.jar
+  й└йд jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+  й└йд jboss-logging-3.3.2.Final.jar
+  й└йд jcommander-1.12.jar
+  й└йд jedis-2.9.0.jar
+  й└йд jetty-6.1.5.bugfix2.jar
+  й└йд jetty-util-6.1.5.jar
+  й└йд json-path-2.4.0.jar
+  й└йд json-smart-2.3.jar
+  й└йд jul-to-slf4j-1.7.25.jar
+  й└йд kryo-3.0.3.jar
+  й└йд kryo-serializers-0.37.jar
+  й└йд log4j-api-2.8.2.jar
+  й└йд log4j-core-2.8.2.jar
+  й└йд log4j-jcl-2.8.2.jar
+  й└йд log4j-jul-2.8.2.jar
+  й└йд log4j-slf4j-impl-2.8.2.jar
+  й└йд lz4-1.3.0.jar
+  й└йд minlog-1.3.0.jar
+  й└йд mockito-core-2.23.0.jar
+  й└йд mvc-enterprise-sofa-boot-starter-4.3.0.jar
+  й└йд mvc-json-plugin-4.3.0.jar
+  й└йд mvc-kernel-4.3.0.jar
+  й└йд mvc-resource-plugin-4.3.0.jar
+  й└йд mvc-security-plugin-4.3.0.jar
+  й└йд mvc-sofaboot-integration-plugin-4.3.0.jar
+  й└йд mvc-toolbox-plugin-4.3.0.jar
+  й└йд mvc-uisvr-plugin-4.3.0.jar
+  й└йд mvc-validation-plugin-4.3.0.jar
+  й└йд mvc-widget-plugin-4.3.0.jar
+  й└йд mybatis-2-spring-1.0.1.jar
+  й└йд mysql-connector-java-5.1.40.jar
+  й└йд netty-3.2.5.Final.jar
+  й└йд objenesis-2.1.jar
+  й└йд org.apache.log4j-1.2.13.v200706111418.jar
+  й└йд org.codehaus.groovy.all-1.8.9.cloudengine4.jar
+  й└йд protobuf-java-2.6.1.jar
+  й└йд reflectasm-1.10.1.jar
+  й└йд rxjava-1.3.8.jar
+  й└йд slf4j-api-1.7.25.jar
+  й└йд snakeyaml-1.23.jar
+  й└йд snappy-java-1.1.2.6.jar
+  й└йд sofa-platform-cache-3.1.0.jar
+  й└йд stax2-api-3.1.4.jar
+  й└йд testng-6.4.jar
+  й└йд tomcat-embed-core-9.0.12.jar
+  й└йд validation-api-2.0.1.Final.jar
+  й└йд woodstox-core-asl-4.4.1.jar
+  й└йд xmlschema-core-2.2.2.jar
+  й└йд xmlunit-core-2.6.2.jar
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar
+  й└йд zkclient-0.10.jar
+  й└йд zoneclient-core-1.0.25.jar
+  й╕йд zookeeper-3.3.3-cdh3u0.jar
+
+2019-12-03 19:11:03,781 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.biz.service.impl
+2019-12-03 19:11:04,044 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.biz.shared
+2019-12-03 19:11:04,069 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.dal
+2019-12-03 19:11:04,100 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.service.integration
+2019-12-03 19:11:04,136 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.util
+2019-12-03 19:11:04,162 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.core.model
+2019-12-03 19:11:04,181 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.core.service
+2019-12-03 19:11:04,261 INFO  main                             - Start install rtsdemos module: sofa-platform-cache-3.1.0.jar
+2019-12-03 19:11:04,280 INFO  main                             - Start install rtsdemos module: zdataconsole-common-service-facade-1.0.2.20170414.jar
+2019-12-03 19:11:04,300 INFO  sofa-module-start-com.alipay.rtsdemo.biz.shared - Begin refresh Spring Application Context of module com.alipay.rtsdemo.biz.shared of application rtsdemo.
+2019-12-03 19:11:04,300 INFO  sofa-module-start-com.alipay.rtsdemo.common.util - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.util of application rtsdemo.
+2019-12-03 19:11:04,300 INFO  sofa-module-start-com.alipay.rtsdemo.common.dal - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.dal of application rtsdemo.
+2019-12-03 19:11:04,300 INFO  sofa-module-start-com.alipay.rtsdemo.core.service - Begin refresh Spring Application Context of module com.alipay.rtsdemo.core.service of application rtsdemo.
+2019-12-03 19:11:04,300 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Begin refresh Spring Application Context of module com.alipay.rtsdemo.biz.service.impl of application rtsdemo.
+2019-12-03 19:11:04,300 INFO  sofa-module-start-com.alipay.rtsdemo.common.service.integration - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.service.integration of application rtsdemo.
+2019-12-03 19:11:04,309 INFO  sofa-module-start-com.alipay.sofa.platform.cache - Begin refresh Spring Application Context of module sofa-platform-cache-3.1.0.jar of application rtsdemo.
+2019-12-03 19:11:04,310 INFO  sofa-module-start-com.alipay.zdataconsole.common.service.facade - Begin refresh Spring Application Context of module zdataconsole-common-service-facade-1.0.2.20170414.jar of application rtsdemo.
+2019-12-03 19:11:04,350 INFO  sofa-module-start-com.alipay.rtsdemo.core.model - Begin refresh Spring Application Context of module com.alipay.rtsdemo.core.model of application rtsdemo.
+2019-12-03 19:11:04,366 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Registering component: service:com.alipay.rtsdemo.facade.SampleService
+2019-12-03 19:11:04,366 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<PreOut Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:11:04,366 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<PreOut Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:11:04,366 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<Out Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:11:04,366 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<Out Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:11:04,366 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Register Service - com.alipay.rtsdemo.facade.SampleService
+2019-12-03 19:11:04,472 INFO  main                             - ++++++++++++++++++ AlipaySpringContextInstallStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:11:04,472 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:11:04,475 INFO  main                             - 
+Spring context initialize success module list(9) >>>>>>> [totalTime = 506 ms, realTime = 170 ms]
+  й└йд sofa-platform-cache-3.1.0.jar [40 ms]
+  йж    `---sofa-platform-cache.xml
+  й└йд com.alipay.rtsdemo.core.service [48 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/core/service/target/classes/META-INF/spring/core-service.xml
+  й└йд com.alipay.rtsdemo.biz.shared [48 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/biz/shared/target/classes/META-INF/spring/biz-shared.xml
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar [39 ms]
+  йж    `---common-service-facade.xml
+  й└йд com.alipay.rtsdemo.common.service.integration [47 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/service/integration/target/classes/META-INF/spring/common-integration.xml
+  й└йд com.alipay.rtsdemo.common.dal [48 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/dal/target/classes/META-INF/spring/common-dal.xml
+  й└йд com.alipay.rtsdemo.common.util [48 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/util/target/classes/META-INF/spring/common-util.xml
+  й└йд com.alipay.rtsdemo.biz.service.impl [67 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/biz/service-impl/target/classes/META-INF/spring/biz-service-impl.xml
+  й╕йд com.alipay.rtsdemo.core.model [121 ms]
+       `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/core/model/target/classes/META-INF/spring/core-model.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(9) >>>>>>> [totalTime = 506 ms, realTime = 170 ms]
+  й└йд sofa-platform-cache-3.1.0.jar [40 ms]
+  й└йд com.alipay.rtsdemo.core.service [48 ms]
+  й└йд com.alipay.rtsdemo.biz.shared [48 ms]
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar [39 ms]
+  й└йд com.alipay.rtsdemo.common.service.integration [47 ms]
+  й└йд com.alipay.rtsdemo.common.dal [48 ms]
+  й└йд com.alipay.rtsdemo.common.util [48 ms]
+  й└йд com.alipay.rtsdemo.biz.service.impl [67 ms]
+  й╕йд com.alipay.rtsdemo.core.model [121 ms]
+
+2019-12-03 19:11:04,476 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:11:43,401 WARN  main                             - Bean class type cant be resolved from bean of appNameAwareBeanPostProcessor
+2019-12-03 19:11:43,401 WARN  main                             - Bean class type cant be resolved from bean of propertySourcesPlaceholderConfigurer
+2019-12-03 19:11:43,401 WARN  main                             - Bean class type cant be resolved from bean of baseHandlerMapping
+2019-12-03 19:11:43,401 WARN  main                             - Bean class type cant be resolved from bean of frameworkClientAwareProcessor
+2019-12-03 19:11:43,401 WARN  main                             - Bean class type cant be resolved from bean of objectDefinitionSource
+2019-12-03 19:11:43,401 WARN  main                             - Bean class type cant be resolved from bean of applicationConfigrationAwareProcessor
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of extension.resource
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of applicationWorkingAreaAwareProcessor
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of extension.tile
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of abstractSecurityBean
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of osgiReferenceProcessor
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of applicationNameAwareProcessor
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of abstractHandlerAdapter
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of healthCheckComponentCallbackPostProcessor
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of healthCheckCallbackBeanPostProcessor
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of extension.json
+2019-12-03 19:11:43,402 WARN  main                             - Bean class type cant be resolved from bean of lazyActivateBeanPostProcessor
+2019-12-03 19:11:43,403 WARN  main                             - Bean class type cant be resolved from bean of appConfigurationBeanPostProcessor
+2019-12-03 19:11:43,403 WARN  main                             - Bean class type cant be resolved from bean of extension.xls
+2019-12-03 19:11:43,403 WARN  main                             - Bean class type cant be resolved from bean of extension.pdf
+2019-12-03 19:11:43,403 WARN  main                             - Bean class type cant be resolved from bean of extension.zip
+2019-12-03 19:11:43,403 WARN  main                             - Bean class type cant be resolved from bean of applicationStartupCallbackProcessor
+2019-12-03 19:11:43,403 WARN  main                             - Bean class type cant be resolved from bean of extension.vm
+2019-12-03 19:11:43,524 INFO  main                             - Registering component: reference:com.alipay.rtsdemo.facade.SampleService:#414599042
+2019-12-03 19:11:43,525 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:11:43,527 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:12:04,602 INFO  main                             - ===========================================================================
+2019-12-03 19:12:04,602 INFO  main                             - |                    [SOFA Process Action after Started]                   |
+2019-12-03 19:12:04,602 INFO  main                             - ===========================================================================
+2019-12-03 19:12:04,602 INFO  main                             - [Sofa Component] - class com.alipay.sofa.runtime.service.component.ReferenceComponent
+2019-12-03 19:12:04,603 INFO  main                             - [Sofa Component] - class com.alipay.sofa.runtime.service.component.ServiceComponent
+2019-12-03 19:12:04,603 INFO  main                             - ===========================================================================
+2019-12-03 19:12:04,612 INFO  main                             - Begin startup custom health check.
+2019-12-03 19:12:09,846 ERROR main                             - Can not find JVM Service for interface: class java.lang.String
+2019-12-03 19:37:20,739 INFO  main                             - SOFABoot Runtime Starting!
+2019-12-03 19:37:51,910 INFO  main                             - ++++++++++++++++++ AlipayModelCreatingStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:37:51,966 INFO  main                             - ++++++++++++++++++ AlipayModelCreatingStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:37:51,966 INFO  main                             - ++++++++++++++++++ AlipaySpringContextInstallStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:37:51,971 INFO  main                             - 
+All activated module list(120) >>>>>>>
+  й└йд HdrHistogram-2.1.9.jar
+  й└йд accessors-smart-1.2.jar
+  й└йд alipay-security-core-0.0.4.jar
+  й└йд alipay-security-open-0.0.4.jar
+  й└йд ambush-1.0.13.jar
+  й└йд antcloud-antvip-client-1.0.6.jar
+  й└йд antvip-client-1.2.1.jar
+  й└йд antvip-common-1.2.1.jar
+  й└йд apache-mime4j-0.6.jar
+  й└йд asm-5.0.4.jar
+  й└йд assertj-core-3.11.1.jar
+  й└йд byte-buddy-1.9.3.jar
+  й└йд byte-buddy-agent-1.9.3.jar
+  й└йд classmate-1.4.0.jar
+  й└йд cloning-1.9.2.jar
+  й└йд com.alipay.rtsdemo.biz.service.impl
+  й└йд com.alipay.rtsdemo.biz.shared
+  й└йд com.alipay.rtsdemo.common.dal
+  й└йд com.alipay.rtsdemo.common.service.facade
+  й└йд com.alipay.rtsdemo.common.service.integration
+  й└йд com.alipay.rtsdemo.common.util
+  й└йд com.alipay.rtsdemo.core.model
+  й└йд com.alipay.rtsdemo.core.service
+  й└йд com.springsource.net.sf.cglib-2.1.3.alipay.jar
+  й└йд com.springsource.org.apache.velocity-1.6.2.cloudengine.bugfix2.jar
+  й└йд com.springsource.org.apache.velocity.tools.view-1.4.0.servlet3.jar
+  й└йд com.springsource.org.aspectj.runtime-1.7.1.RELEASE.jar
+  й└йд com.springsource.org.aspectj.weaver-1.7.1.RELEASE.jar
+  й└йд commons-collections-3.2.2.jar
+  й└йд commons-compress-1.3.jar
+  й└йд commons-fileupload-1.3.3.jar
+  й└йд commons-io-1.4.jar
+  й└йд commons-lang-2.4.jar
+  й└йд commons-lang3-3.3.2.jar
+  й└йд commons-pool-1.5.4.jar
+  й└йд commons-pool2-2.6.0.jar
+  й└йд concurrentlinkedhashmap-lru-1.4.2.jar
+  й└йд curator-client-2.9.1.jar
+  й└йд curator-framework-2.9.1.jar
+  й└йд curator-recipes-2.9.1.jar
+  й└йд cxf-core-3.0.14.jar
+  й└йд disruptor-3.2.1.jar
+  й└йд drm-client-3.7.16.jar
+  й└йд ecj-4.2.2.jar
+  й└йд guardian-core-1.4.6.jar
+  й└йд guava-18.0.jar
+  й└йд guice-3.0.jar
+  й└йд guice-multibindings-3.0.jar
+  й└йд hibernate-validator-5.0.1.Final.jar
+  й└йд hibernate-validator-6.0.13.Final.jar
+  й└йд jackson-annotations-2.9.0.jar
+  й└йд jackson-core-2.9.7.jar
+  й└йд jackson-core-asl-1.9.12.jar
+  й└йд jackson-core-lgpl-1.6.4.jar
+  й└йд jackson-databind-2.9.7.jar
+  й└йд jackson-datatype-jdk8-2.9.7.jar
+  й└йд jackson-datatype-jsr310-2.9.7.jar
+  й└йд jackson-jaxrs-1.9.12.jar
+  й└йд jackson-mapper-asl-1.9.12.jar
+  й└йд jackson-mapper-lgpl-1.6.4.jar
+  й└йд jackson-module-parameter-names-2.9.7.jar
+  й└йд jackson-xc-1.9.12.jar
+  й└йд javassist-3.19.0-GA.jar
+  й└йд javax.annotation-api-1.3.2.jar
+  й└йд jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+  й└йд jboss-logging-3.3.2.Final.jar
+  й└йд jcommander-1.12.jar
+  й└йд jedis-2.9.0.jar
+  й└йд jetty-6.1.5.bugfix2.jar
+  й└йд jetty-util-6.1.5.jar
+  й└йд json-path-2.4.0.jar
+  й└йд json-smart-2.3.jar
+  й└йд jul-to-slf4j-1.7.25.jar
+  й└йд kryo-3.0.3.jar
+  й└йд kryo-serializers-0.37.jar
+  й└йд log4j-api-2.8.2.jar
+  й└йд log4j-core-2.8.2.jar
+  й└йд log4j-jcl-2.8.2.jar
+  й└йд log4j-jul-2.8.2.jar
+  й└йд log4j-slf4j-impl-2.8.2.jar
+  й└йд lz4-1.3.0.jar
+  й└йд minlog-1.3.0.jar
+  й└йд mockito-core-2.23.0.jar
+  й└йд mvc-enterprise-sofa-boot-starter-4.3.0.jar
+  й└йд mvc-json-plugin-4.3.0.jar
+  й└йд mvc-kernel-4.3.0.jar
+  й└йд mvc-resource-plugin-4.3.0.jar
+  й└йд mvc-security-plugin-4.3.0.jar
+  й└йд mvc-sofaboot-integration-plugin-4.3.0.jar
+  й└йд mvc-toolbox-plugin-4.3.0.jar
+  й└йд mvc-uisvr-plugin-4.3.0.jar
+  й└йд mvc-validation-plugin-4.3.0.jar
+  й└йд mvc-widget-plugin-4.3.0.jar
+  й└йд mybatis-2-spring-1.0.1.jar
+  й└йд mysql-connector-java-5.1.40.jar
+  й└йд netty-3.2.5.Final.jar
+  й└йд netty-3.6.3.Final.jar
+  й└йд objenesis-2.1.jar
+  й└йд org.apache.log4j-1.2.13.v200706111418.jar
+  й└йд org.codehaus.groovy.all-1.8.9.cloudengine4.jar
+  й└йд protobuf-java-2.6.1.jar
+  й└йд reflectasm-1.10.1.jar
+  й└йд rxjava-1.3.8.jar
+  й└йд slf4j-api-1.7.25.jar
+  й└йд snakeyaml-1.23.jar
+  й└йд snappy-java-1.1.2.6.jar
+  й└йд sofa-platform-cache-3.1.0.jar
+  й└йд stax2-api-3.1.4.jar
+  й└йд testng-6.4.jar
+  й└йд tomcat-embed-core-9.0.12.jar
+  й└йд tomcat-embed-el-9.0.12.jar
+  й└йд tomcat-embed-websocket-9.0.12.jar
+  й└йд validation-api-2.0.1.Final.jar
+  й└йд woodstox-core-asl-4.4.1.jar
+  й└йд xmlschema-core-2.2.2.jar
+  й└йд xmlunit-core-2.6.2.jar
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar
+  й└йд zkclient-0.10.jar
+  й└йд zoneclient-core-1.0.25.jar
+  й╕йд zookeeper-3.3.3-cdh3u0.jar
+
+Modules that could install(116) >>>>>>>
+  й└йд HdrHistogram-2.1.9.jar
+  й└йд accessors-smart-1.2.jar
+  й└йд alipay-security-core-0.0.4.jar
+  й└йд ambush-1.0.13.jar
+  й└йд antcloud-antvip-client-1.0.6.jar
+  й└йд antvip-client-1.2.1.jar
+  й└йд antvip-common-1.2.1.jar
+  й└йд apache-mime4j-0.6.jar
+  й└йд asm-5.0.4.jar
+  й└йд assertj-core-3.11.1.jar
+  й└йд byte-buddy-1.9.3.jar
+  й└йд byte-buddy-agent-1.9.3.jar
+  й└йд classmate-1.4.0.jar
+  й└йд cloning-1.9.2.jar
+  й└йд com.alipay.rtsdemo.biz.service.impl
+  й└йд com.alipay.rtsdemo.biz.shared
+  й└йд com.alipay.rtsdemo.common.dal
+  й└йд com.alipay.rtsdemo.common.service.facade
+  й└йд com.alipay.rtsdemo.common.service.integration
+  й└йд com.alipay.rtsdemo.common.util
+  й└йд com.alipay.rtsdemo.core.model
+  й└йд com.alipay.rtsdemo.core.service
+  й└йд com.springsource.net.sf.cglib-2.1.3.alipay.jar
+  й└йд com.springsource.org.apache.velocity-1.6.2.cloudengine.bugfix2.jar
+  й└йд com.springsource.org.apache.velocity.tools.view-1.4.0.servlet3.jar
+  й└йд com.springsource.org.aspectj.runtime-1.7.1.RELEASE.jar
+  й└йд com.springsource.org.aspectj.weaver-1.7.1.RELEASE.jar
+  й└йд commons-collections-3.2.2.jar
+  й└йд commons-compress-1.3.jar
+  й└йд commons-fileupload-1.3.3.jar
+  й└йд commons-io-1.4.jar
+  й└йд commons-lang-2.4.jar
+  й└йд commons-lang3-3.3.2.jar
+  й└йд commons-pool-1.5.4.jar
+  й└йд commons-pool2-2.6.0.jar
+  й└йд concurrentlinkedhashmap-lru-1.4.2.jar
+  й└йд curator-client-2.9.1.jar
+  й└йд curator-framework-2.9.1.jar
+  й└йд curator-recipes-2.9.1.jar
+  й└йд cxf-core-3.0.14.jar
+  й└йд disruptor-3.2.1.jar
+  й└йд drm-client-3.7.16.jar
+  й└йд ecj-4.2.2.jar
+  й└йд guardian-core-1.4.6.jar
+  й└йд guava-18.0.jar
+  й└йд guice-3.0.jar
+  й└йд guice-multibindings-3.0.jar
+  й└йд hibernate-validator-5.0.1.Final.jar
+  й└йд hibernate-validator-6.0.13.Final.jar
+  й└йд jackson-annotations-2.9.0.jar
+  й└йд jackson-core-2.9.7.jar
+  й└йд jackson-core-asl-1.9.12.jar
+  й└йд jackson-core-lgpl-1.6.4.jar
+  й└йд jackson-databind-2.9.7.jar
+  й└йд jackson-datatype-jdk8-2.9.7.jar
+  й└йд jackson-datatype-jsr310-2.9.7.jar
+  й└йд jackson-jaxrs-1.9.12.jar
+  й└йд jackson-mapper-asl-1.9.12.jar
+  й└йд jackson-mapper-lgpl-1.6.4.jar
+  й└йд jackson-module-parameter-names-2.9.7.jar
+  й└йд jackson-xc-1.9.12.jar
+  й└йд javassist-3.19.0-GA.jar
+  й└йд javax.annotation-api-1.3.2.jar
+  й└йд jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+  й└йд jboss-logging-3.3.2.Final.jar
+  й└йд jcommander-1.12.jar
+  й└йд jedis-2.9.0.jar
+  й└йд jetty-6.1.5.bugfix2.jar
+  й└йд jetty-util-6.1.5.jar
+  й└йд json-path-2.4.0.jar
+  й└йд json-smart-2.3.jar
+  й└йд jul-to-slf4j-1.7.25.jar
+  й└йд kryo-3.0.3.jar
+  й└йд kryo-serializers-0.37.jar
+  й└йд log4j-api-2.8.2.jar
+  й└йд log4j-core-2.8.2.jar
+  й└йд log4j-jcl-2.8.2.jar
+  й└йд log4j-jul-2.8.2.jar
+  й└йд log4j-slf4j-impl-2.8.2.jar
+  й└йд lz4-1.3.0.jar
+  й└йд minlog-1.3.0.jar
+  й└йд mockito-core-2.23.0.jar
+  й└йд mvc-enterprise-sofa-boot-starter-4.3.0.jar
+  й└йд mvc-json-plugin-4.3.0.jar
+  й└йд mvc-kernel-4.3.0.jar
+  й└йд mvc-resource-plugin-4.3.0.jar
+  й└йд mvc-security-plugin-4.3.0.jar
+  й└йд mvc-sofaboot-integration-plugin-4.3.0.jar
+  й└йд mvc-toolbox-plugin-4.3.0.jar
+  й└йд mvc-uisvr-plugin-4.3.0.jar
+  й└йд mvc-validation-plugin-4.3.0.jar
+  й└йд mvc-widget-plugin-4.3.0.jar
+  й└йд mybatis-2-spring-1.0.1.jar
+  й└йд mysql-connector-java-5.1.40.jar
+  й└йд netty-3.2.5.Final.jar
+  й└йд objenesis-2.1.jar
+  й└йд org.apache.log4j-1.2.13.v200706111418.jar
+  й└йд org.codehaus.groovy.all-1.8.9.cloudengine4.jar
+  й└йд protobuf-java-2.6.1.jar
+  й└йд reflectasm-1.10.1.jar
+  й└йд rxjava-1.3.8.jar
+  й└йд slf4j-api-1.7.25.jar
+  й└йд snakeyaml-1.23.jar
+  й└йд snappy-java-1.1.2.6.jar
+  й└йд sofa-platform-cache-3.1.0.jar
+  й└йд stax2-api-3.1.4.jar
+  й└йд testng-6.4.jar
+  й└йд tomcat-embed-core-9.0.12.jar
+  й└йд validation-api-2.0.1.Final.jar
+  й└йд woodstox-core-asl-4.4.1.jar
+  й└йд xmlschema-core-2.2.2.jar
+  й└йд xmlunit-core-2.6.2.jar
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar
+  й└йд zkclient-0.10.jar
+  й└йд zoneclient-core-1.0.25.jar
+  й╕йд zookeeper-3.3.3-cdh3u0.jar
+
+2019-12-03 19:37:51,984 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.biz.service.impl
+2019-12-03 19:37:52,175 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.biz.shared
+2019-12-03 19:37:52,194 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.dal
+2019-12-03 19:37:52,209 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.service.integration
+2019-12-03 19:37:52,221 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.util
+2019-12-03 19:37:52,234 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.core.model
+2019-12-03 19:37:52,248 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.core.service
+2019-12-03 19:37:52,289 INFO  main                             - Start install rtsdemos module: sofa-platform-cache-3.1.0.jar
+2019-12-03 19:37:52,303 INFO  main                             - Start install rtsdemos module: zdataconsole-common-service-facade-1.0.2.20170414.jar
+2019-12-03 19:37:52,321 INFO  sofa-module-start-com.alipay.rtsdemo.common.dal - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.dal of application rtsdemo.
+2019-12-03 19:37:52,321 INFO  sofa-module-start-com.alipay.rtsdemo.biz.shared - Begin refresh Spring Application Context of module com.alipay.rtsdemo.biz.shared of application rtsdemo.
+2019-12-03 19:37:52,321 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Begin refresh Spring Application Context of module com.alipay.rtsdemo.biz.service.impl of application rtsdemo.
+2019-12-03 19:37:52,365 INFO  sofa-module-start-com.alipay.rtsdemo.core.model - Begin refresh Spring Application Context of module com.alipay.rtsdemo.core.model of application rtsdemo.
+2019-12-03 19:37:52,366 INFO  sofa-module-start-com.alipay.rtsdemo.common.service.integration - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.service.integration of application rtsdemo.
+2019-12-03 19:37:52,366 INFO  sofa-module-start-com.alipay.rtsdemo.core.service - Begin refresh Spring Application Context of module com.alipay.rtsdemo.core.service of application rtsdemo.
+2019-12-03 19:37:52,366 INFO  sofa-module-start-com.alipay.rtsdemo.common.util - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.util of application rtsdemo.
+2019-12-03 19:37:52,367 INFO  sofa-module-start-com.alipay.sofa.platform.cache - Begin refresh Spring Application Context of module sofa-platform-cache-3.1.0.jar of application rtsdemo.
+2019-12-03 19:37:52,368 INFO  sofa-module-start-com.alipay.zdataconsole.common.service.facade - Begin refresh Spring Application Context of module zdataconsole-common-service-facade-1.0.2.20170414.jar of application rtsdemo.
+2019-12-03 19:37:52,383 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Registering component: service:com.alipay.rtsdemo.facade.SampleService
+2019-12-03 19:37:52,384 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<PreOut Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:37:52,384 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<PreOut Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:37:52,384 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<Out Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:37:52,384 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<Out Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:37:52,384 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Register Service - com.alipay.rtsdemo.facade.SampleService
+2019-12-03 19:37:52,572 INFO  main                             - ++++++++++++++++++ AlipaySpringContextInstallStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:37:52,572 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:37:52,573 INFO  main                             - 
+Spring context initialize success module list(9) >>>>>>> [totalTime = 1363 ms, realTime = 250 ms]
+  й└йд com.alipay.rtsdemo.common.dal [44 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/dal/target/classes/META-INF/spring/common-dal.xml
+  й└йд com.alipay.rtsdemo.biz.shared [44 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/biz/shared/target/classes/META-INF/spring/biz-shared.xml
+  й└йд com.alipay.rtsdemo.biz.service.impl [66 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/biz/service-impl/target/classes/META-INF/spring/biz-service-impl.xml
+  й└йд com.alipay.rtsdemo.common.util [200 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/util/target/classes/META-INF/spring/common-util.xml
+  й└йд com.alipay.rtsdemo.core.model [201 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/core/model/target/classes/META-INF/spring/core-model.xml
+  й└йд sofa-platform-cache-3.1.0.jar [199 ms]
+  йж    `---sofa-platform-cache.xml
+  й└йд com.alipay.rtsdemo.common.service.integration [201 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/service/integration/target/classes/META-INF/spring/common-integration.xml
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar [203 ms]
+  йж    `---common-service-facade.xml
+  й╕йд com.alipay.rtsdemo.core.service [205 ms]
+       `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/core/service/target/classes/META-INF/spring/core-service.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(9) >>>>>>> [totalTime = 1363 ms, realTime = 250 ms]
+  й└йд com.alipay.rtsdemo.common.dal [44 ms]
+  й└йд com.alipay.rtsdemo.biz.shared [44 ms]
+  й└йд com.alipay.rtsdemo.biz.service.impl [66 ms]
+  й└йд com.alipay.rtsdemo.common.util [200 ms]
+  й└йд com.alipay.rtsdemo.core.model [201 ms]
+  й└йд sofa-platform-cache-3.1.0.jar [199 ms]
+  й└йд com.alipay.rtsdemo.common.service.integration [201 ms]
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar [203 ms]
+  й╕йд com.alipay.rtsdemo.core.service [205 ms]
+
+2019-12-03 19:37:52,573 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:38:31,127 WARN  main                             - Bean class type cant be resolved from bean of appNameAwareBeanPostProcessor
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of propertySourcesPlaceholderConfigurer
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of baseHandlerMapping
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of frameworkClientAwareProcessor
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of objectDefinitionSource
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of applicationConfigrationAwareProcessor
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of extension.resource
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of applicationWorkingAreaAwareProcessor
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of extension.tile
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of abstractSecurityBean
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of osgiReferenceProcessor
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of applicationNameAwareProcessor
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of abstractHandlerAdapter
+2019-12-03 19:38:31,128 WARN  main                             - Bean class type cant be resolved from bean of healthCheckComponentCallbackPostProcessor
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of healthCheckCallbackBeanPostProcessor
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of extension.json
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of lazyActivateBeanPostProcessor
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of appConfigurationBeanPostProcessor
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of extension.xls
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of extension.pdf
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of extension.zip
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of applicationStartupCallbackProcessor
+2019-12-03 19:38:31,129 WARN  main                             - Bean class type cant be resolved from bean of extension.vm
+2019-12-03 19:38:31,251 INFO  main                             - Registering component: reference:com.alipay.rtsdemo.facade.SampleService:#414599042
+2019-12-03 19:38:31,251 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:38:31,253 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:38:52,382 INFO  main                             - ===========================================================================
+2019-12-03 19:38:52,383 INFO  main                             - |                    [SOFA Process Action after Started]                   |
+2019-12-03 19:38:52,383 INFO  main                             - ===========================================================================
+2019-12-03 19:38:52,383 INFO  main                             - [Sofa Component] - class com.alipay.sofa.runtime.service.component.ReferenceComponent
+2019-12-03 19:38:52,383 INFO  main                             - [Sofa Component] - class com.alipay.sofa.runtime.service.component.ServiceComponent
+2019-12-03 19:38:52,383 INFO  main                             - ===========================================================================
+2019-12-03 19:38:52,392 INFO  main                             - Begin startup custom health check.
+2019-12-03 19:38:57,625 ERROR main                             - Can not find JVM Service for interface: class java.lang.String
+2019-12-03 19:47:55,487 INFO  main                             - SOFABoot Runtime Starting!
+2019-12-03 19:48:27,402 INFO  main                             - ++++++++++++++++++ AlipayModelCreatingStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:48:27,459 INFO  main                             - ++++++++++++++++++ AlipayModelCreatingStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:48:27,459 INFO  main                             - ++++++++++++++++++ AlipaySpringContextInstallStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:48:27,463 INFO  main                             - 
+All activated module list(120) >>>>>>>
+  й└йд HdrHistogram-2.1.9.jar
+  й└йд accessors-smart-1.2.jar
+  й└йд alipay-security-core-0.0.4.jar
+  й└йд alipay-security-open-0.0.4.jar
+  й└йд ambush-1.0.13.jar
+  й└йд antcloud-antvip-client-1.0.6.jar
+  й└йд antvip-client-1.2.1.jar
+  й└йд antvip-common-1.2.1.jar
+  й└йд apache-mime4j-0.6.jar
+  й└йд asm-5.0.4.jar
+  й└йд assertj-core-3.11.1.jar
+  й└йд byte-buddy-1.9.3.jar
+  й└йд byte-buddy-agent-1.9.3.jar
+  й└йд classmate-1.4.0.jar
+  й└йд cloning-1.9.2.jar
+  й└йд com.alipay.rtsdemo.biz.service.impl
+  й└йд com.alipay.rtsdemo.biz.shared
+  й└йд com.alipay.rtsdemo.common.dal
+  й└йд com.alipay.rtsdemo.common.service.facade
+  й└йд com.alipay.rtsdemo.common.service.integration
+  й└йд com.alipay.rtsdemo.common.util
+  й└йд com.alipay.rtsdemo.core.model
+  й└йд com.alipay.rtsdemo.core.service
+  й└йд com.springsource.net.sf.cglib-2.1.3.alipay.jar
+  й└йд com.springsource.org.apache.velocity-1.6.2.cloudengine.bugfix2.jar
+  й└йд com.springsource.org.apache.velocity.tools.view-1.4.0.servlet3.jar
+  й└йд com.springsource.org.aspectj.runtime-1.7.1.RELEASE.jar
+  й└йд com.springsource.org.aspectj.weaver-1.7.1.RELEASE.jar
+  й└йд commons-collections-3.2.2.jar
+  й└йд commons-compress-1.3.jar
+  й└йд commons-fileupload-1.3.3.jar
+  й└йд commons-io-1.4.jar
+  й└йд commons-lang-2.4.jar
+  й└йд commons-lang3-3.3.2.jar
+  й└йд commons-pool-1.5.4.jar
+  й└йд commons-pool2-2.6.0.jar
+  й└йд concurrentlinkedhashmap-lru-1.4.2.jar
+  й└йд curator-client-2.9.1.jar
+  й└йд curator-framework-2.9.1.jar
+  й└йд curator-recipes-2.9.1.jar
+  й└йд cxf-core-3.0.14.jar
+  й└йд disruptor-3.2.1.jar
+  й└йд drm-client-3.7.16.jar
+  й└йд ecj-4.2.2.jar
+  й└йд guardian-core-1.4.6.jar
+  й└йд guava-18.0.jar
+  й└йд guice-3.0.jar
+  й└йд guice-multibindings-3.0.jar
+  й└йд hibernate-validator-5.0.1.Final.jar
+  й└йд hibernate-validator-6.0.13.Final.jar
+  й└йд jackson-annotations-2.9.0.jar
+  й└йд jackson-core-2.9.7.jar
+  й└йд jackson-core-asl-1.9.12.jar
+  й└йд jackson-core-lgpl-1.6.4.jar
+  й└йд jackson-databind-2.9.7.jar
+  й└йд jackson-datatype-jdk8-2.9.7.jar
+  й└йд jackson-datatype-jsr310-2.9.7.jar
+  й└йд jackson-jaxrs-1.9.12.jar
+  й└йд jackson-mapper-asl-1.9.12.jar
+  й└йд jackson-mapper-lgpl-1.6.4.jar
+  й└йд jackson-module-parameter-names-2.9.7.jar
+  й└йд jackson-xc-1.9.12.jar
+  й└йд javassist-3.19.0-GA.jar
+  й└йд javax.annotation-api-1.3.2.jar
+  й└йд jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+  й└йд jboss-logging-3.3.2.Final.jar
+  й└йд jcommander-1.12.jar
+  й└йд jedis-2.9.0.jar
+  й└йд jetty-6.1.5.bugfix2.jar
+  й└йд jetty-util-6.1.5.jar
+  й└йд json-path-2.4.0.jar
+  й└йд json-smart-2.3.jar
+  й└йд jul-to-slf4j-1.7.25.jar
+  й└йд kryo-3.0.3.jar
+  й└йд kryo-serializers-0.37.jar
+  й└йд log4j-api-2.8.2.jar
+  й└йд log4j-core-2.8.2.jar
+  й└йд log4j-jcl-2.8.2.jar
+  й└йд log4j-jul-2.8.2.jar
+  й└йд log4j-slf4j-impl-2.8.2.jar
+  й└йд lz4-1.3.0.jar
+  й└йд minlog-1.3.0.jar
+  й└йд mockito-core-2.23.0.jar
+  й└йд mvc-enterprise-sofa-boot-starter-4.3.0.jar
+  й└йд mvc-json-plugin-4.3.0.jar
+  й└йд mvc-kernel-4.3.0.jar
+  й└йд mvc-resource-plugin-4.3.0.jar
+  й└йд mvc-security-plugin-4.3.0.jar
+  й└йд mvc-sofaboot-integration-plugin-4.3.0.jar
+  й└йд mvc-toolbox-plugin-4.3.0.jar
+  й└йд mvc-uisvr-plugin-4.3.0.jar
+  й└йд mvc-validation-plugin-4.3.0.jar
+  й└йд mvc-widget-plugin-4.3.0.jar
+  й└йд mybatis-2-spring-1.0.1.jar
+  й└йд mysql-connector-java-5.1.40.jar
+  й└йд netty-3.2.5.Final.jar
+  й└йд netty-3.6.3.Final.jar
+  й└йд objenesis-2.1.jar
+  й└йд org.apache.log4j-1.2.13.v200706111418.jar
+  й└йд org.codehaus.groovy.all-1.8.9.cloudengine4.jar
+  й└йд protobuf-java-2.6.1.jar
+  й└йд reflectasm-1.10.1.jar
+  й└йд rxjava-1.3.8.jar
+  й└йд slf4j-api-1.7.25.jar
+  й└йд snakeyaml-1.23.jar
+  й└йд snappy-java-1.1.2.6.jar
+  й└йд sofa-platform-cache-3.1.0.jar
+  й└йд stax2-api-3.1.4.jar
+  й└йд testng-6.4.jar
+  й└йд tomcat-embed-core-9.0.12.jar
+  й└йд tomcat-embed-el-9.0.12.jar
+  й└йд tomcat-embed-websocket-9.0.12.jar
+  й└йд validation-api-2.0.1.Final.jar
+  й└йд woodstox-core-asl-4.4.1.jar
+  й└йд xmlschema-core-2.2.2.jar
+  й└йд xmlunit-core-2.6.2.jar
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar
+  й└йд zkclient-0.10.jar
+  й└йд zoneclient-core-1.0.25.jar
+  й╕йд zookeeper-3.3.3-cdh3u0.jar
+
+Modules that could install(116) >>>>>>>
+  й└йд HdrHistogram-2.1.9.jar
+  й└йд accessors-smart-1.2.jar
+  й└йд alipay-security-core-0.0.4.jar
+  й└йд ambush-1.0.13.jar
+  й└йд antcloud-antvip-client-1.0.6.jar
+  й└йд antvip-client-1.2.1.jar
+  й└йд antvip-common-1.2.1.jar
+  й└йд apache-mime4j-0.6.jar
+  й└йд asm-5.0.4.jar
+  й└йд assertj-core-3.11.1.jar
+  й└йд byte-buddy-1.9.3.jar
+  й└йд byte-buddy-agent-1.9.3.jar
+  й└йд classmate-1.4.0.jar
+  й└йд cloning-1.9.2.jar
+  й└йд com.alipay.rtsdemo.biz.service.impl
+  й└йд com.alipay.rtsdemo.biz.shared
+  й└йд com.alipay.rtsdemo.common.dal
+  й└йд com.alipay.rtsdemo.common.service.facade
+  й└йд com.alipay.rtsdemo.common.service.integration
+  й└йд com.alipay.rtsdemo.common.util
+  й└йд com.alipay.rtsdemo.core.model
+  й└йд com.alipay.rtsdemo.core.service
+  й└йд com.springsource.net.sf.cglib-2.1.3.alipay.jar
+  й└йд com.springsource.org.apache.velocity-1.6.2.cloudengine.bugfix2.jar
+  й└йд com.springsource.org.apache.velocity.tools.view-1.4.0.servlet3.jar
+  й└йд com.springsource.org.aspectj.runtime-1.7.1.RELEASE.jar
+  й└йд com.springsource.org.aspectj.weaver-1.7.1.RELEASE.jar
+  й└йд commons-collections-3.2.2.jar
+  й└йд commons-compress-1.3.jar
+  й└йд commons-fileupload-1.3.3.jar
+  й└йд commons-io-1.4.jar
+  й└йд commons-lang-2.4.jar
+  й└йд commons-lang3-3.3.2.jar
+  й└йд commons-pool-1.5.4.jar
+  й└йд commons-pool2-2.6.0.jar
+  й└йд concurrentlinkedhashmap-lru-1.4.2.jar
+  й└йд curator-client-2.9.1.jar
+  й└йд curator-framework-2.9.1.jar
+  й└йд curator-recipes-2.9.1.jar
+  й└йд cxf-core-3.0.14.jar
+  й└йд disruptor-3.2.1.jar
+  й└йд drm-client-3.7.16.jar
+  й└йд ecj-4.2.2.jar
+  й└йд guardian-core-1.4.6.jar
+  й└йд guava-18.0.jar
+  й└йд guice-3.0.jar
+  й└йд guice-multibindings-3.0.jar
+  й└йд hibernate-validator-5.0.1.Final.jar
+  й└йд hibernate-validator-6.0.13.Final.jar
+  й└йд jackson-annotations-2.9.0.jar
+  й└йд jackson-core-2.9.7.jar
+  й└йд jackson-core-asl-1.9.12.jar
+  й└йд jackson-core-lgpl-1.6.4.jar
+  й└йд jackson-databind-2.9.7.jar
+  й└йд jackson-datatype-jdk8-2.9.7.jar
+  й└йд jackson-datatype-jsr310-2.9.7.jar
+  й└йд jackson-jaxrs-1.9.12.jar
+  й└йд jackson-mapper-asl-1.9.12.jar
+  й└йд jackson-mapper-lgpl-1.6.4.jar
+  й└йд jackson-module-parameter-names-2.9.7.jar
+  й└йд jackson-xc-1.9.12.jar
+  й└йд javassist-3.19.0-GA.jar
+  й└йд javax.annotation-api-1.3.2.jar
+  й└йд jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+  й└йд jboss-logging-3.3.2.Final.jar
+  й└йд jcommander-1.12.jar
+  й└йд jedis-2.9.0.jar
+  й└йд jetty-6.1.5.bugfix2.jar
+  й└йд jetty-util-6.1.5.jar
+  й└йд json-path-2.4.0.jar
+  й└йд json-smart-2.3.jar
+  й└йд jul-to-slf4j-1.7.25.jar
+  й└йд kryo-3.0.3.jar
+  й└йд kryo-serializers-0.37.jar
+  й└йд log4j-api-2.8.2.jar
+  й└йд log4j-core-2.8.2.jar
+  й└йд log4j-jcl-2.8.2.jar
+  й└йд log4j-jul-2.8.2.jar
+  й└йд log4j-slf4j-impl-2.8.2.jar
+  й└йд lz4-1.3.0.jar
+  й└йд minlog-1.3.0.jar
+  й└йд mockito-core-2.23.0.jar
+  й└йд mvc-enterprise-sofa-boot-starter-4.3.0.jar
+  й└йд mvc-json-plugin-4.3.0.jar
+  й└йд mvc-kernel-4.3.0.jar
+  й└йд mvc-resource-plugin-4.3.0.jar
+  й└йд mvc-security-plugin-4.3.0.jar
+  й└йд mvc-sofaboot-integration-plugin-4.3.0.jar
+  й└йд mvc-toolbox-plugin-4.3.0.jar
+  й└йд mvc-uisvr-plugin-4.3.0.jar
+  й└йд mvc-validation-plugin-4.3.0.jar
+  й└йд mvc-widget-plugin-4.3.0.jar
+  й└йд mybatis-2-spring-1.0.1.jar
+  й└йд mysql-connector-java-5.1.40.jar
+  й└йд netty-3.2.5.Final.jar
+  й└йд objenesis-2.1.jar
+  й└йд org.apache.log4j-1.2.13.v200706111418.jar
+  й└йд org.codehaus.groovy.all-1.8.9.cloudengine4.jar
+  й└йд protobuf-java-2.6.1.jar
+  й└йд reflectasm-1.10.1.jar
+  й└йд rxjava-1.3.8.jar
+  й└йд slf4j-api-1.7.25.jar
+  й└йд snakeyaml-1.23.jar
+  й└йд snappy-java-1.1.2.6.jar
+  й└йд sofa-platform-cache-3.1.0.jar
+  й└йд stax2-api-3.1.4.jar
+  й└йд testng-6.4.jar
+  й└йд tomcat-embed-core-9.0.12.jar
+  й└йд validation-api-2.0.1.Final.jar
+  й└йд woodstox-core-asl-4.4.1.jar
+  й└йд xmlschema-core-2.2.2.jar
+  й└йд xmlunit-core-2.6.2.jar
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar
+  й└йд zkclient-0.10.jar
+  й└йд zoneclient-core-1.0.25.jar
+  й╕йд zookeeper-3.3.3-cdh3u0.jar
+
+2019-12-03 19:48:27,476 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.biz.service.impl
+2019-12-03 19:48:27,651 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.biz.shared
+2019-12-03 19:48:27,666 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.dal
+2019-12-03 19:48:27,682 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.service.integration
+2019-12-03 19:48:27,697 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.common.util
+2019-12-03 19:48:27,709 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.core.model
+2019-12-03 19:48:27,724 INFO  main                             - Start install rtsdemos module: com.alipay.rtsdemo.core.service
+2019-12-03 19:48:27,763 INFO  main                             - Start install rtsdemos module: sofa-platform-cache-3.1.0.jar
+2019-12-03 19:48:27,778 INFO  main                             - Start install rtsdemos module: zdataconsole-common-service-facade-1.0.2.20170414.jar
+2019-12-03 19:48:27,798 INFO  sofa-module-start-com.alipay.rtsdemo.common.service.integration - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.service.integration of application rtsdemo.
+2019-12-03 19:48:27,798 INFO  sofa-module-start-com.alipay.rtsdemo.biz.shared - Begin refresh Spring Application Context of module com.alipay.rtsdemo.biz.shared of application rtsdemo.
+2019-12-03 19:48:27,798 INFO  sofa-module-start-com.alipay.rtsdemo.common.dal - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.dal of application rtsdemo.
+2019-12-03 19:48:27,798 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Begin refresh Spring Application Context of module com.alipay.rtsdemo.biz.service.impl of application rtsdemo.
+2019-12-03 19:48:27,848 INFO  sofa-module-start-com.alipay.rtsdemo.common.util - Begin refresh Spring Application Context of module com.alipay.rtsdemo.common.util of application rtsdemo.
+2019-12-03 19:48:27,848 INFO  sofa-module-start-com.alipay.rtsdemo.core.service - Begin refresh Spring Application Context of module com.alipay.rtsdemo.core.service of application rtsdemo.
+2019-12-03 19:48:27,848 INFO  sofa-module-start-com.alipay.rtsdemo.core.model - Begin refresh Spring Application Context of module com.alipay.rtsdemo.core.model of application rtsdemo.
+2019-12-03 19:48:27,851 INFO  sofa-module-start-com.alipay.sofa.platform.cache - Begin refresh Spring Application Context of module sofa-platform-cache-3.1.0.jar of application rtsdemo.
+2019-12-03 19:48:27,852 INFO  sofa-module-start-com.alipay.zdataconsole.common.service.facade - Begin refresh Spring Application Context of module zdataconsole-common-service-facade-1.0.2.20170414.jar of application rtsdemo.
+2019-12-03 19:48:27,868 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Registering component: service:com.alipay.rtsdemo.facade.SampleService
+2019-12-03 19:48:27,868 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<PreOut Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:48:27,868 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<PreOut Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:48:27,869 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<Out Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:48:27,869 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl -  <<Out Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:48:27,869 INFO  sofa-module-start-com.alipay.rtsdemo.biz.service.impl - Register Service - com.alipay.rtsdemo.facade.SampleService
+2019-12-03 19:48:28,049 INFO  main                             - ++++++++++++++++++ AlipaySpringContextInstallStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:48:28,050 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of rtsdemo Start +++++++++++++++++
+2019-12-03 19:48:28,051 INFO  main                             - 
+Spring context initialize success module list(9) >>>>>>> [totalTime = 1213 ms, realTime = 251 ms]
+  й└йд com.alipay.rtsdemo.common.dal [50 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/dal/target/classes/META-INF/spring/common-dal.xml
+  й└йд com.alipay.rtsdemo.biz.shared [50 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/biz/shared/target/classes/META-INF/spring/biz-shared.xml
+  й└йд com.alipay.rtsdemo.common.service.integration [50 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/service/integration/target/classes/META-INF/spring/common-integration.xml
+  й└йд com.alipay.rtsdemo.biz.service.impl [74 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/biz/service-impl/target/classes/META-INF/spring/biz-service-impl.xml
+  й└йд com.alipay.rtsdemo.core.service [198 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/core/service/target/classes/META-INF/spring/core-service.xml
+  й└йд sofa-platform-cache-3.1.0.jar [195 ms]
+  йж    `---sofa-platform-cache.xml
+  й└йд com.alipay.rtsdemo.common.util [199 ms]
+  йж    `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/common/util/target/classes/META-INF/spring/common-util.xml
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar [197 ms]
+  йж    `---common-service-facade.xml
+  й╕йд com.alipay.rtsdemo.core.model [200 ms]
+       `---/Users/zhudan/Documents/workspace/github/rtsdemo/app/core/model/target/classes/META-INF/spring/core-model.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(9) >>>>>>> [totalTime = 1213 ms, realTime = 251 ms]
+  й└йд com.alipay.rtsdemo.common.dal [50 ms]
+  й└йд com.alipay.rtsdemo.biz.shared [50 ms]
+  й└йд com.alipay.rtsdemo.common.service.integration [50 ms]
+  й└йд com.alipay.rtsdemo.biz.service.impl [74 ms]
+  й└йд com.alipay.rtsdemo.core.service [198 ms]
+  й└йд sofa-platform-cache-3.1.0.jar [195 ms]
+  й└йд com.alipay.rtsdemo.common.util [199 ms]
+  й└йд zdataconsole-common-service-facade-1.0.2.20170414.jar [197 ms]
+  й╕йд com.alipay.rtsdemo.core.model [200 ms]
+
+2019-12-03 19:48:28,051 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of rtsdemo End +++++++++++++++++
+2019-12-03 19:49:37,984 WARN  main                             - Bean class type cant be resolved from bean of appNameAwareBeanPostProcessor
+2019-12-03 19:49:37,984 WARN  main                             - Bean class type cant be resolved from bean of propertySourcesPlaceholderConfigurer
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of baseHandlerMapping
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of frameworkClientAwareProcessor
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of objectDefinitionSource
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of applicationConfigrationAwareProcessor
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of extension.resource
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of applicationWorkingAreaAwareProcessor
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of extension.tile
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of abstractSecurityBean
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of osgiReferenceProcessor
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of applicationNameAwareProcessor
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of abstractHandlerAdapter
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of healthCheckComponentCallbackPostProcessor
+2019-12-03 19:49:37,985 WARN  main                             - Bean class type cant be resolved from bean of healthCheckCallbackBeanPostProcessor
+2019-12-03 19:49:37,986 WARN  main                             - Bean class type cant be resolved from bean of extension.json
+2019-12-03 19:49:37,986 WARN  main                             - Bean class type cant be resolved from bean of lazyActivateBeanPostProcessor
+2019-12-03 19:49:37,986 WARN  main                             - Bean class type cant be resolved from bean of appConfigurationBeanPostProcessor
+2019-12-03 19:49:37,986 WARN  main                             - Bean class type cant be resolved from bean of extension.xls
+2019-12-03 19:49:37,986 WARN  main                             - Bean class type cant be resolved from bean of extension.pdf
+2019-12-03 19:49:37,986 WARN  main                             - Bean class type cant be resolved from bean of extension.zip
+2019-12-03 19:49:37,986 WARN  main                             - Bean class type cant be resolved from bean of applicationStartupCallbackProcessor
+2019-12-03 19:49:37,986 WARN  main                             - Bean class type cant be resolved from bean of extension.vm
+2019-12-03 19:49:38,115 INFO  main                             - Registering component: reference:com.alipay.rtsdemo.facade.SampleService:#414599042
+2019-12-03 19:49:38,115 INFO  main                             -  >>In Binding [jvm] Begins - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:49:38,117 INFO  main                             -  >>In Binding [jvm] Ends - com.alipay.rtsdemo.facade.SampleService.
+2019-12-03 19:49:59,453 INFO  main                             - ===========================================================================
+2019-12-03 19:49:59,453 INFO  main                             - |                    [SOFA Process Action after Started]                   |
+2019-12-03 19:49:59,453 INFO  main                             - ===========================================================================
+2019-12-03 19:49:59,453 INFO  main                             - [Sofa Component] - class com.alipay.sofa.runtime.service.component.ReferenceComponent
+2019-12-03 19:49:59,454 INFO  main                             - [Sofa Component] - class com.alipay.sofa.runtime.service.component.ServiceComponent
+2019-12-03 19:49:59,454 INFO  main                             - ===========================================================================
+2019-12-03 19:49:59,464 INFO  main                             - Begin startup custom health check.
+2019-12-03 19:50:04,701 ERROR main                             - Can not find JVM Service for interface: class java.lang.String
