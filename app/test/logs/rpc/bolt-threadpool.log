@@ -1,9 +1,6 @@
-2019-12-03 19:12:09,780 INFO  main                             RPC-BOLT-THREADPOOL - coreSize:80,maxPoolSize:400,keepAliveTime:300000
+2019-12-04 09:51:47,489 INFO  main                             RPC-BOLT-THREADPOOL - coreSize:80,maxPoolSize:400,keepAliveTime:300000
 
-2019-12-03 19:12:09,780 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
-2019-12-03 19:38:57,559 INFO  main                             RPC-BOLT-THREADPOOL - coreSize:80,maxPoolSize:400,keepAliveTime:300000
+2019-12-04 09:51:47,490 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2019-12-04 15:43:11,409 INFO  main                             RPC-BOLT-THREADPOOL - coreSize:80,maxPoolSize:400,keepAliveTime:300000
 
-2019-12-03 19:38:57,559 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
-2019-12-03 19:50:04,634 INFO  main                             RPC-BOLT-THREADPOOL - coreSize:80,maxPoolSize:400,keepAliveTime:300000
-
-2019-12-03 19:50:04,635 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2019-12-04 15:43:11,409 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0

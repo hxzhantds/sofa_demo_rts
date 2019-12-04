@@ -23,12 +23,6 @@
             <artifactId>rtsdemo-biz-shared</artifactId>
         </dependency>
 
-        <!-- sofa rpc dependency -->
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>rpc-alipay-sofa-boot-starter</artifactId>
-        </dependency>
-
     </dependencies>
 
 </project>

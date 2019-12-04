@@ -1,3 +1,7 @@
-2019-12-03 19:49:23,948 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
-2019-12-03 19:49:27,832 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
-2019-12-03 19:49:28,299 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-04 09:51:07,548 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-04 09:51:09,768 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-04 09:51:13,588 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-04 15:42:27,219 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-04 15:42:31,575 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-04 15:42:35,089 [  - /// - ] ERROR http.HttpChannel - java.net.UnknownHostException: z-pool.bbb.net
+2019-12-04 15:43:11,498 [  - /// - ] ERROR config.ConfigrationFactory - can not find ats config [config/dbConf/db.conf]!

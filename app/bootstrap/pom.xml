@@ -20,18 +20,6 @@
             <groupId>com.alipay.rtsdemo</groupId>
             <artifactId>rtsdemo-web</artifactId>
         </dependency>
-        <!-- log4j2 -->
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>log4j2-alipay-sofa-boot-starter</artifactId>
-        </dependency>
-        <!-- isle -->
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>isle-alipay-sofa-boot-starter</artifactId>
-        </dependency>
-
-
     </dependencies>
 
     <build>

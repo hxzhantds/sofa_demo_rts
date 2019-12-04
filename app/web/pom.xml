@@ -18,24 +18,6 @@
             <artifactId>rtsdemo-biz-shared</artifactId>
         </dependency>
 
-        <!-- runtime dependency -->
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>runtime-alipay-sofa-boot-starter</artifactId>
-        </dependency>
-
-        <!-- sofa mvc dependency -->
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>mvc-alipay-sofa-boot-starter</artifactId>
-        </dependency>
-
-        <!-- session dependency -->
-        <dependency>
-            <groupId>com.alipay.sofa.web.mvc</groupId>
-            <artifactId>mvc-tair-newsession-plugin</artifactId>
-        </dependency>
-
     </dependencies>
 
 </project>

@@ -1,300 +1,203 @@
-2019-12-03 19:11:15,361 INFO  Start building distributed resource ...
-2019-12-03 19:11:15,370 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0]
-2019-12-03 19:11:20,422 INFO  Query drm zone name success: GZ00B
-2019-12-03 19:11:20,433 INFO  Query zdrmdata rest url pool from confreg:
-  >>> http://11.166.189.58
-  >>> http://100.88.248.228
+2019-12-04 09:50:21,887 INFO  Start building distributed resource ...
+2019-12-04 09:50:21,897 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0]
+2019-12-04 09:50:26,926 INFO  Query drm zone name success: GZ00B
+2019-12-04 09:50:26,931 INFO  Query zdrmdata rest url pool from confreg:
   >>> http://11.159.194.127
-
-2019-12-03 19:11:31,184 INFO  Query zdrmdata server url pool from confreg:
-  >>> 11.166.189.58:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
-  >>> 11.159.194.127:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
-  >>> 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
-
-2019-12-03 19:11:31,184 INFO  Register subscriber for drm zone name...
-2019-12-03 19:11:31,185 INFO  Register subscriber for zdrmdata rest url...
-2019-12-03 19:11:31,187 INFO  Register subscriber for zdrmdata heartbeat url...
-2019-12-03 19:11:31,188 INFO  Register subscriber for zdrmdata server url...
-2019-12-03 19:11:31,205 INFO  DRM TR server started, port: 9877
-2019-12-03 19:11:31,205 INFO  Register TR handler for drm resource [com.alipay.zcache.log.rtsdemo]
-2019-12-03 19:11:31,205 INFO  Register attribute [logLevel]
-2019-12-03 19:11:31,207 INFO  Register zdrmdata subscribers for [com.alipay.zcache.log.rtsdemo]
-2019-12-03 19:11:31,209 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM]
-2019-12-03 19:11:31,247 INFO  Query inital drm value was empty. app = rtsdemo, attribute = logLevel
-2019-12-03 19:11:31,269 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0] completed
-2019-12-03 19:11:37,212 INFO  Start building distributed resource ...
-2019-12-03 19:11:37,215 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0]
-2019-12-03 19:11:37,215 INFO  Register TR handler for drm resource [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:11:37,215 INFO  Register attribute [ldcTairWeight]
-2019-12-03 19:11:37,215 INFO  Register attribute [czoneSwitchMap]
-2019-12-03 19:11:37,216 INFO  Register attribute [refresh]
-2019-12-03 19:11:37,216 INFO  Register attribute [zonePolicy]
-2019-12-03 19:11:37,216 INFO  Register attribute [compressionType]
-2019-12-03 19:11:37,216 INFO  Register attribute [shardingRule]
-2019-12-03 19:11:37,216 INFO  Register attribute [useZoneMng]
-2019-12-03 19:11:37,216 INFO  Register attribute [cacheEngineUrl]
-2019-12-03 19:11:37,216 INFO  Register attribute [compressionThreshold]
-2019-12-03 19:11:37,216 INFO  Register attribute [elastic]
-2019-12-03 19:11:37,216 INFO  Register attribute [legacyRwWeight]
-2019-12-03 19:11:37,216 INFO  Register attribute [foReadPolicy]
-2019-12-03 19:11:37,216 INFO  Register attribute [serializationType]
-2019-12-03 19:11:37,216 INFO  Register attribute [nativeRuleZones]
-2019-12-03 19:11:37,216 INFO  Register attribute [useKeyRouteInfo]
-2019-12-03 19:11:37,216 INFO  Register zdrmdata subscribers for [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:11:37,216 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM]
-2019-12-03 19:11:37,241 INFO  Initialize drm value success. app = zdaltair, attribute = ldcTairWeight
-2019-12-03 19:11:37,242 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM]
-2019-12-03 19:11:37,262 INFO  Query inital drm value was empty. app = zdaltair, attribute = czoneSwitchMap
-2019-12-03 19:11:37,263 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM]
-2019-12-03 19:11:37,283 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM]
-2019-12-03 19:11:37,301 INFO  Query inital drm value was empty. app = zdaltair, attribute = zonePolicy
-2019-12-03 19:11:37,301 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM]
-2019-12-03 19:11:37,322 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionType
-2019-12-03 19:11:37,323 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM]
-2019-12-03 19:11:37,347 INFO  Query inital drm value was empty. app = zdaltair, attribute = shardingRule
-2019-12-03 19:11:37,347 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM]
-2019-12-03 19:11:37,376 INFO  Initialize drm value success. app = zdaltair, attribute = useZoneMng
-2019-12-03 19:11:37,377 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM]
-2019-12-03 19:11:37,394 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
-2019-12-03 19:11:37,414 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
-2019-12-03 19:11:37,415 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM]
-2019-12-03 19:11:37,431 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionThreshold
-2019-12-03 19:11:37,431 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM]
-2019-12-03 19:11:37,454 INFO  Query inital drm value was empty. app = zdaltair, attribute = elastic
-2019-12-03 19:11:37,454 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM]
-2019-12-03 19:11:37,481 INFO  Query inital drm value was empty. app = zdaltair, attribute = legacyRwWeight
-2019-12-03 19:11:37,482 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM]
-2019-12-03 19:11:37,500 INFO  Query inital drm value was empty. app = zdaltair, attribute = foReadPolicy
-2019-12-03 19:11:37,500 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM]
-2019-12-03 19:11:37,520 INFO  Query inital drm value was empty. app = zdaltair, attribute = serializationType
-2019-12-03 19:11:37,521 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM]
-2019-12-03 19:11:37,543 INFO  Query inital drm value was empty. app = zdaltair, attribute = nativeRuleZones
-2019-12-03 19:11:37,544 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM]
-2019-12-03 19:11:37,563 INFO  Query inital drm value was empty. app = zdaltair, attribute = useKeyRouteInfo
-2019-12-03 19:11:37,563 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0] completed
-2019-12-03 19:11:37,565 INFO  Start building distributed resource ...
-2019-12-03 19:11:37,568 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0]
-2019-12-03 19:11:37,568 INFO  Register TR handler for drm resource [com.alipay.zcache.global]
-2019-12-03 19:11:37,568 INFO  Register attribute [grayElastic]
-2019-12-03 19:11:37,568 INFO  Register attribute [grayZones]
-2019-12-03 19:11:37,568 INFO  Register attribute [readBackToSource]
-2019-12-03 19:11:37,568 INFO  Register zdrmdata subscribers for [com.alipay.zcache.global]
-2019-12-03 19:11:37,568 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM]
-2019-12-03 19:11:37,591 INFO  Query inital drm value was empty. app = zdaltair, attribute = grayElastic
-2019-12-03 19:11:37,591 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM]
-2019-12-03 19:11:37,619 INFO  Initialize drm value success. app = zdaltair, attribute = grayZones
-2019-12-03 19:11:37,619 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM]
-2019-12-03 19:11:37,644 INFO  Query inital drm value was empty. app = zdaltair, attribute = readBackToSource
-2019-12-03 19:11:37,645 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0] completed
-2019-12-03 19:11:37,646 INFO  Start building distributed resource ...
-2019-12-03 19:11:37,648 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0]
-2019-12-03 19:11:37,648 INFO  Register TR handler for drm resource [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
-2019-12-03 19:11:37,648 INFO  Register attribute [localCacheSwitch]
-2019-12-03 19:11:37,648 INFO  Register zdrmdata subscribers for [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
-2019-12-03 19:11:37,648 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM]
-2019-12-03 19:11:37,670 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
-2019-12-03 19:11:37,689 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
-2019-12-03 19:11:37,690 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0] completed
-2019-12-03 19:12:15,393 INFO  Start building distributed resource ...
-2019-12-03 19:12:15,395 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator,version=3.0]
-2019-12-03 19:12:15,396 INFO  Register TR handler for drm resource [com.alipay.ambush.netmock.rule.NetmockRuleCoordinator]
-2019-12-03 19:12:15,396 INFO  Register attribute [netmockRule]
-2019-12-03 19:12:15,396 INFO  Register zdrmdata subscribers for [com.alipay.ambush.netmock.rule.NetmockRuleCoordinator]
-2019-12-03 19:12:15,396 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator.netmockRule,version=3.0@DRM]
-2019-12-03 19:12:15,430 INFO  Query inital drm value was empty. app = rtsdemo, attribute = netmockRule
-2019-12-03 19:12:15,451 INFO  Initialize drm value success. app = rtsdemo, attribute = netmockRule
-2019-12-03 19:12:15,453 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator,version=3.0] completed
-2019-12-03 19:38:03,112 INFO  Start building distributed resource ...
-2019-12-03 19:38:03,122 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0]
-2019-12-03 19:38:08,181 INFO  Query drm zone name success: GZ00B
-2019-12-03 19:38:08,192 INFO  Query zdrmdata rest url pool from confreg:
-  >>> http://11.166.189.58
   >>> http://100.88.248.228
-  >>> http://11.159.194.127
-
-2019-12-03 19:38:18,950 INFO  Query zdrmdata server url pool from confreg:
-  >>> 11.166.189.58:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
-  >>> 11.159.194.127:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
-  >>> 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
-
-2019-12-03 19:38:18,950 INFO  Register subscriber for drm zone name...
-2019-12-03 19:38:18,951 INFO  Register subscriber for zdrmdata rest url...
-2019-12-03 19:38:18,952 INFO  Register subscriber for zdrmdata heartbeat url...
-2019-12-03 19:38:18,953 INFO  Register subscriber for zdrmdata server url...
-2019-12-03 19:38:18,971 INFO  DRM TR server started, port: 9877
-2019-12-03 19:38:18,971 INFO  Register TR handler for drm resource [com.alipay.zcache.log.rtsdemo]
-2019-12-03 19:38:18,971 INFO  Register attribute [logLevel]
-2019-12-03 19:38:18,973 INFO  Register zdrmdata subscribers for [com.alipay.zcache.log.rtsdemo]
-2019-12-03 19:38:18,975 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM]
-2019-12-03 19:38:19,000 INFO  Query inital drm value was empty. app = rtsdemo, attribute = logLevel
-2019-12-03 19:38:19,024 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0] completed
-2019-12-03 19:38:24,870 INFO  Start building distributed resource ...
-2019-12-03 19:38:24,872 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0]
-2019-12-03 19:38:24,872 INFO  Register TR handler for drm resource [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:38:24,872 INFO  Register attribute [ldcTairWeight]
-2019-12-03 19:38:24,872 INFO  Register attribute [czoneSwitchMap]
-2019-12-03 19:38:24,873 INFO  Register attribute [refresh]
-2019-12-03 19:38:24,873 INFO  Register attribute [zonePolicy]
-2019-12-03 19:38:24,873 INFO  Register attribute [compressionType]
-2019-12-03 19:38:24,873 INFO  Register attribute [shardingRule]
-2019-12-03 19:38:24,873 INFO  Register attribute [useZoneMng]
-2019-12-03 19:38:24,873 INFO  Register attribute [cacheEngineUrl]
-2019-12-03 19:38:24,873 INFO  Register attribute [compressionThreshold]
-2019-12-03 19:38:24,873 INFO  Register attribute [elastic]
-2019-12-03 19:38:24,873 INFO  Register attribute [legacyRwWeight]
-2019-12-03 19:38:24,873 INFO  Register attribute [foReadPolicy]
-2019-12-03 19:38:24,873 INFO  Register attribute [serializationType]
-2019-12-03 19:38:24,873 INFO  Register attribute [nativeRuleZones]
-2019-12-03 19:38:24,873 INFO  Register attribute [useKeyRouteInfo]
-2019-12-03 19:38:24,873 INFO  Register zdrmdata subscribers for [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:38:24,873 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM]
-2019-12-03 19:38:24,901 INFO  Initialize drm value success. app = zdaltair, attribute = ldcTairWeight
-2019-12-03 19:38:24,901 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM]
-2019-12-03 19:38:24,918 INFO  Query inital drm value was empty. app = zdaltair, attribute = czoneSwitchMap
-2019-12-03 19:38:24,918 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM]
-2019-12-03 19:38:24,938 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM]
-2019-12-03 19:38:24,955 INFO  Query inital drm value was empty. app = zdaltair, attribute = zonePolicy
-2019-12-03 19:38:24,956 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM]
-2019-12-03 19:38:24,975 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionType
-2019-12-03 19:38:24,975 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM]
-2019-12-03 19:38:24,996 INFO  Query inital drm value was empty. app = zdaltair, attribute = shardingRule
-2019-12-03 19:38:24,997 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM]
-2019-12-03 19:38:25,018 INFO  Initialize drm value success. app = zdaltair, attribute = useZoneMng
-2019-12-03 19:38:25,018 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM]
-2019-12-03 19:38:25,038 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
-2019-12-03 19:38:25,057 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
-2019-12-03 19:38:25,058 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM]
-2019-12-03 19:38:25,082 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionThreshold
-2019-12-03 19:38:25,082 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM]
-2019-12-03 19:38:25,108 INFO  Query inital drm value was empty. app = zdaltair, attribute = elastic
-2019-12-03 19:38:25,108 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM]
-2019-12-03 19:38:25,132 INFO  Query inital drm value was empty. app = zdaltair, attribute = legacyRwWeight
-2019-12-03 19:38:25,133 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM]
-2019-12-03 19:38:25,157 INFO  Query inital drm value was empty. app = zdaltair, attribute = foReadPolicy
-2019-12-03 19:38:25,157 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM]
-2019-12-03 19:38:25,176 INFO  Query inital drm value was empty. app = zdaltair, attribute = serializationType
-2019-12-03 19:38:25,176 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM]
-2019-12-03 19:38:25,194 INFO  Query inital drm value was empty. app = zdaltair, attribute = nativeRuleZones
-2019-12-03 19:38:25,194 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM]
-2019-12-03 19:38:25,210 INFO  Query inital drm value was empty. app = zdaltair, attribute = useKeyRouteInfo
-2019-12-03 19:38:25,211 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0] completed
-2019-12-03 19:38:25,213 INFO  Start building distributed resource ...
-2019-12-03 19:38:25,216 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0]
-2019-12-03 19:38:25,216 INFO  Register TR handler for drm resource [com.alipay.zcache.global]
-2019-12-03 19:38:25,216 INFO  Register attribute [grayElastic]
-2019-12-03 19:38:25,216 INFO  Register attribute [grayZones]
-2019-12-03 19:38:25,216 INFO  Register attribute [readBackToSource]
-2019-12-03 19:38:25,216 INFO  Register zdrmdata subscribers for [com.alipay.zcache.global]
-2019-12-03 19:38:25,216 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM]
-2019-12-03 19:38:25,243 INFO  Query inital drm value was empty. app = zdaltair, attribute = grayElastic
-2019-12-03 19:38:25,243 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM]
-2019-12-03 19:38:25,263 INFO  Initialize drm value success. app = zdaltair, attribute = grayZones
-2019-12-03 19:38:25,264 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM]
-2019-12-03 19:38:25,286 INFO  Query inital drm value was empty. app = zdaltair, attribute = readBackToSource
-2019-12-03 19:38:25,286 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0] completed
-2019-12-03 19:38:25,289 INFO  Start building distributed resource ...
-2019-12-03 19:38:25,291 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0]
-2019-12-03 19:38:25,291 INFO  Register TR handler for drm resource [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
-2019-12-03 19:38:25,291 INFO  Register attribute [localCacheSwitch]
-2019-12-03 19:38:25,291 INFO  Register zdrmdata subscribers for [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
-2019-12-03 19:38:25,291 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM]
-2019-12-03 19:38:25,330 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
-2019-12-03 19:38:25,352 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
-2019-12-03 19:38:25,352 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0] completed
-2019-12-03 19:48:38,672 INFO  Start building distributed resource ...
-2019-12-03 19:48:38,682 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0]
-2019-12-03 19:48:43,752 INFO  Query drm zone name success: GZ00B
-2019-12-03 19:48:43,765 INFO  Query zdrmdata rest url pool from confreg:
   >>> http://11.166.189.58
-  >>> http://100.88.248.228
-  >>> http://11.159.194.127
 
-2019-12-03 19:48:54,514 INFO  Query zdrmdata server url pool from confreg:
-  >>> 11.166.189.58:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
-  >>> 11.159.194.127:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+2019-12-04 09:50:38,074 INFO  Query zdrmdata server url pool from confreg:
   >>> 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.159.194.127:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.166.189.58:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
 
-2019-12-03 19:48:54,514 INFO  Register subscriber for drm zone name...
-2019-12-03 19:48:54,515 INFO  Register subscriber for zdrmdata rest url...
-2019-12-03 19:48:54,516 INFO  Register subscriber for zdrmdata heartbeat url...
-2019-12-03 19:48:54,517 INFO  Register subscriber for zdrmdata server url...
-2019-12-03 19:48:54,536 INFO  DRM TR server started, port: 9877
-2019-12-03 19:48:54,536 INFO  Register TR handler for drm resource [com.alipay.zcache.log.rtsdemo]
-2019-12-03 19:48:54,536 INFO  Register attribute [logLevel]
-2019-12-03 19:48:54,538 INFO  Register zdrmdata subscribers for [com.alipay.zcache.log.rtsdemo]
-2019-12-03 19:48:54,540 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM]
-2019-12-03 19:48:54,567 INFO  Query inital drm value was empty. app = rtsdemo, attribute = logLevel
-2019-12-03 19:48:54,589 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0] completed
-2019-12-03 19:49:31,758 INFO  Start building distributed resource ...
-2019-12-03 19:49:31,761 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0]
-2019-12-03 19:49:31,761 INFO  Register TR handler for drm resource [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:49:31,761 INFO  Register attribute [ldcTairWeight]
-2019-12-03 19:49:31,761 INFO  Register attribute [czoneSwitchMap]
-2019-12-03 19:49:31,761 INFO  Register attribute [refresh]
-2019-12-03 19:49:31,762 INFO  Register attribute [zonePolicy]
-2019-12-03 19:49:31,762 INFO  Register attribute [compressionType]
-2019-12-03 19:49:31,762 INFO  Register attribute [shardingRule]
-2019-12-03 19:49:31,762 INFO  Register attribute [useZoneMng]
-2019-12-03 19:49:31,762 INFO  Register attribute [cacheEngineUrl]
-2019-12-03 19:49:31,762 INFO  Register attribute [compressionThreshold]
-2019-12-03 19:49:31,762 INFO  Register attribute [elastic]
-2019-12-03 19:49:31,762 INFO  Register attribute [legacyRwWeight]
-2019-12-03 19:49:31,762 INFO  Register attribute [foReadPolicy]
-2019-12-03 19:49:31,762 INFO  Register attribute [serializationType]
-2019-12-03 19:49:31,762 INFO  Register attribute [nativeRuleZones]
-2019-12-03 19:49:31,762 INFO  Register attribute [useKeyRouteInfo]
-2019-12-03 19:49:31,762 INFO  Register zdrmdata subscribers for [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:49:31,762 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM]
-2019-12-03 19:49:31,793 INFO  Initialize drm value success. app = zdaltair, attribute = ldcTairWeight
-2019-12-03 19:49:31,794 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM]
-2019-12-03 19:49:31,813 INFO  Query inital drm value was empty. app = zdaltair, attribute = czoneSwitchMap
-2019-12-03 19:49:31,813 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM]
-2019-12-03 19:49:31,836 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM]
-2019-12-03 19:49:31,857 INFO  Query inital drm value was empty. app = zdaltair, attribute = zonePolicy
-2019-12-03 19:49:31,857 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM]
-2019-12-03 19:49:31,877 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionType
-2019-12-03 19:49:31,877 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM]
-2019-12-03 19:49:31,903 INFO  Query inital drm value was empty. app = zdaltair, attribute = shardingRule
-2019-12-03 19:49:31,903 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM]
-2019-12-03 19:49:31,922 INFO  Initialize drm value success. app = zdaltair, attribute = useZoneMng
-2019-12-03 19:49:31,923 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM]
-2019-12-03 19:49:31,941 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
-2019-12-03 19:49:31,964 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
-2019-12-03 19:49:31,965 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM]
-2019-12-03 19:49:31,993 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionThreshold
-2019-12-03 19:49:31,994 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM]
-2019-12-03 19:49:32,013 INFO  Query inital drm value was empty. app = zdaltair, attribute = elastic
-2019-12-03 19:49:32,014 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM]
-2019-12-03 19:49:32,036 INFO  Query inital drm value was empty. app = zdaltair, attribute = legacyRwWeight
-2019-12-03 19:49:32,036 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM]
-2019-12-03 19:49:32,058 INFO  Query inital drm value was empty. app = zdaltair, attribute = foReadPolicy
-2019-12-03 19:49:32,058 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM]
-2019-12-03 19:49:32,083 INFO  Query inital drm value was empty. app = zdaltair, attribute = serializationType
-2019-12-03 19:49:32,083 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM]
-2019-12-03 19:49:32,113 INFO  Query inital drm value was empty. app = zdaltair, attribute = nativeRuleZones
-2019-12-03 19:49:32,113 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM]
-2019-12-03 19:49:32,135 INFO  Query inital drm value was empty. app = zdaltair, attribute = useKeyRouteInfo
-2019-12-03 19:49:32,135 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0] completed
-2019-12-03 19:49:32,137 INFO  Start building distributed resource ...
-2019-12-03 19:49:32,139 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0]
-2019-12-03 19:49:32,139 INFO  Register TR handler for drm resource [com.alipay.zcache.global]
-2019-12-03 19:49:32,140 INFO  Register attribute [grayElastic]
-2019-12-03 19:49:32,140 INFO  Register attribute [grayZones]
-2019-12-03 19:49:32,140 INFO  Register attribute [readBackToSource]
-2019-12-03 19:49:32,140 INFO  Register zdrmdata subscribers for [com.alipay.zcache.global]
-2019-12-03 19:49:32,140 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM]
-2019-12-03 19:49:32,155 INFO  Query inital drm value was empty. app = zdaltair, attribute = grayElastic
-2019-12-03 19:49:32,156 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM]
-2019-12-03 19:49:32,176 INFO  Initialize drm value success. app = zdaltair, attribute = grayZones
-2019-12-03 19:49:32,177 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM]
-2019-12-03 19:49:32,199 INFO  Query inital drm value was empty. app = zdaltair, attribute = readBackToSource
-2019-12-03 19:49:32,200 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0] completed
-2019-12-03 19:49:32,201 INFO  Start building distributed resource ...
-2019-12-03 19:49:32,203 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0]
-2019-12-03 19:49:32,203 INFO  Register TR handler for drm resource [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
-2019-12-03 19:49:32,203 INFO  Register attribute [localCacheSwitch]
-2019-12-03 19:49:32,203 INFO  Register zdrmdata subscribers for [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
-2019-12-03 19:49:32,203 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM]
-2019-12-03 19:49:32,221 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
-2019-12-03 19:49:32,238 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
-2019-12-03 19:49:32,238 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0] completed
+2019-12-04 09:50:38,074 INFO  Register subscriber for drm zone name...
+2019-12-04 09:50:38,075 INFO  Register subscriber for zdrmdata rest url...
+2019-12-04 09:50:38,076 INFO  Register subscriber for zdrmdata heartbeat url...
+2019-12-04 09:50:38,076 INFO  Register subscriber for zdrmdata server url...
+2019-12-04 09:50:38,093 INFO  DRM TR server started, port: 9877
+2019-12-04 09:50:38,093 INFO  Register TR handler for drm resource [com.alipay.zcache.log.rtsdemo]
+2019-12-04 09:50:38,093 INFO  Register attribute [logLevel]
+2019-12-04 09:50:38,095 INFO  Register zdrmdata subscribers for [com.alipay.zcache.log.rtsdemo]
+2019-12-04 09:50:38,097 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM]
+2019-12-04 09:50:38,110 INFO  Query inital drm value was empty. app = rtsdemo, attribute = logLevel
+2019-12-04 09:50:38,132 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0] completed
+2019-12-04 09:51:14,684 INFO  Start building distributed resource ...
+2019-12-04 09:51:14,686 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0]
+2019-12-04 09:51:14,686 INFO  Register TR handler for drm resource [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
+2019-12-04 09:51:14,686 INFO  Register attribute [ldcTairWeight]
+2019-12-04 09:51:14,686 INFO  Register attribute [czoneSwitchMap]
+2019-12-04 09:51:14,686 INFO  Register attribute [refresh]
+2019-12-04 09:51:14,686 INFO  Register attribute [zonePolicy]
+2019-12-04 09:51:14,686 INFO  Register attribute [compressionType]
+2019-12-04 09:51:14,686 INFO  Register attribute [shardingRule]
+2019-12-04 09:51:14,686 INFO  Register attribute [useZoneMng]
+2019-12-04 09:51:14,686 INFO  Register attribute [cacheEngineUrl]
+2019-12-04 09:51:14,686 INFO  Register attribute [compressionThreshold]
+2019-12-04 09:51:14,687 INFO  Register attribute [elastic]
+2019-12-04 09:51:14,687 INFO  Register attribute [legacyRwWeight]
+2019-12-04 09:51:14,687 INFO  Register attribute [foReadPolicy]
+2019-12-04 09:51:14,687 INFO  Register attribute [serializationType]
+2019-12-04 09:51:14,687 INFO  Register attribute [nativeRuleZones]
+2019-12-04 09:51:14,687 INFO  Register attribute [useKeyRouteInfo]
+2019-12-04 09:51:14,687 INFO  Register zdrmdata subscribers for [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
+2019-12-04 09:51:14,687 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM]
+2019-12-04 09:51:14,702 INFO  Initialize drm value success. app = zdaltair, attribute = ldcTairWeight
+2019-12-04 09:51:14,702 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM]
+2019-12-04 09:51:14,710 INFO  Query inital drm value was empty. app = zdaltair, attribute = czoneSwitchMap
+2019-12-04 09:51:14,711 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM]
+2019-12-04 09:51:14,718 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM]
+2019-12-04 09:51:14,726 INFO  Query inital drm value was empty. app = zdaltair, attribute = zonePolicy
+2019-12-04 09:51:14,727 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM]
+2019-12-04 09:51:14,734 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionType
+2019-12-04 09:51:14,734 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM]
+2019-12-04 09:51:14,743 INFO  Query inital drm value was empty. app = zdaltair, attribute = shardingRule
+2019-12-04 09:51:14,743 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM]
+2019-12-04 09:51:14,752 INFO  Initialize drm value success. app = zdaltair, attribute = useZoneMng
+2019-12-04 09:51:14,752 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM]
+2019-12-04 09:51:14,761 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
+2019-12-04 09:51:14,769 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
+2019-12-04 09:51:14,770 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM]
+2019-12-04 09:51:14,779 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionThreshold
+2019-12-04 09:51:14,779 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM]
+2019-12-04 09:51:14,787 INFO  Query inital drm value was empty. app = zdaltair, attribute = elastic
+2019-12-04 09:51:14,787 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM]
+2019-12-04 09:51:14,797 INFO  Query inital drm value was empty. app = zdaltair, attribute = legacyRwWeight
+2019-12-04 09:51:14,797 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM]
+2019-12-04 09:51:14,804 INFO  Query inital drm value was empty. app = zdaltair, attribute = foReadPolicy
+2019-12-04 09:51:14,804 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM]
+2019-12-04 09:51:14,811 INFO  Query inital drm value was empty. app = zdaltair, attribute = serializationType
+2019-12-04 09:51:14,812 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM]
+2019-12-04 09:51:14,819 INFO  Query inital drm value was empty. app = zdaltair, attribute = nativeRuleZones
+2019-12-04 09:51:14,819 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM]
+2019-12-04 09:51:14,826 INFO  Query inital drm value was empty. app = zdaltair, attribute = useKeyRouteInfo
+2019-12-04 09:51:14,826 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0] completed
+2019-12-04 09:51:14,828 INFO  Start building distributed resource ...
+2019-12-04 09:51:14,831 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0]
+2019-12-04 09:51:14,831 INFO  Register TR handler for drm resource [com.alipay.zcache.global]
+2019-12-04 09:51:14,831 INFO  Register attribute [grayElastic]
+2019-12-04 09:51:14,831 INFO  Register attribute [grayZones]
+2019-12-04 09:51:14,831 INFO  Register attribute [readBackToSource]
+2019-12-04 09:51:14,831 INFO  Register zdrmdata subscribers for [com.alipay.zcache.global]
+2019-12-04 09:51:14,831 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM]
+2019-12-04 09:51:14,841 INFO  Query inital drm value was empty. app = zdaltair, attribute = grayElastic
+2019-12-04 09:51:14,841 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM]
+2019-12-04 09:51:14,848 INFO  Initialize drm value success. app = zdaltair, attribute = grayZones
+2019-12-04 09:51:14,848 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM]
+2019-12-04 09:51:14,857 INFO  Query inital drm value was empty. app = zdaltair, attribute = readBackToSource
+2019-12-04 09:51:14,857 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0] completed
+2019-12-04 09:51:14,859 INFO  Start building distributed resource ...
+2019-12-04 09:51:14,861 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0]
+2019-12-04 09:51:14,861 INFO  Register TR handler for drm resource [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
+2019-12-04 09:51:14,861 INFO  Register attribute [localCacheSwitch]
+2019-12-04 09:51:14,861 INFO  Register zdrmdata subscribers for [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
+2019-12-04 09:51:14,861 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM]
+2019-12-04 09:51:14,869 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
+2019-12-04 09:51:14,877 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
+2019-12-04 09:51:14,877 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0] completed
+2019-12-04 09:51:53,086 INFO  Start building distributed resource ...
+2019-12-04 09:51:53,089 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator,version=3.0]
+2019-12-04 09:51:53,089 INFO  Register TR handler for drm resource [com.alipay.ambush.netmock.rule.NetmockRuleCoordinator]
+2019-12-04 09:51:53,089 INFO  Register attribute [netmockRule]
+2019-12-04 09:51:53,090 INFO  Register zdrmdata subscribers for [com.alipay.ambush.netmock.rule.NetmockRuleCoordinator]
+2019-12-04 09:51:53,090 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator.netmockRule,version=3.0@DRM]
+2019-12-04 09:51:53,104 INFO  Query inital drm value was empty. app = rtsdemo, attribute = netmockRule
+2019-12-04 09:51:53,114 INFO  Initialize drm value success. app = rtsdemo, attribute = netmockRule
+2019-12-04 09:51:53,116 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.ambush.netmock.rule.NetmockRuleCoordinator,version=3.0] completed
+2019-12-04 15:41:36,161 INFO  Start building distributed resource ...
+2019-12-04 15:41:36,172 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0]
+2019-12-04 15:41:41,202 INFO  Query drm zone name success: GZ00B
+2019-12-04 15:41:41,208 INFO  Query zdrmdata rest url pool from confreg:
+  >>> http://11.159.194.127
+  >>> http://100.88.248.228
+  >>> http://11.166.189.58
+
+2019-12-04 15:41:51,755 INFO  Query zdrmdata server url pool from confreg:
+  >>> 100.88.248.228:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.159.194.127:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+  >>> 11.166.189.58:9880?_SERIALIZETYPE=hessian2&_CONNECTTIMEOUT=5000&_TIMEOUT=10000
+
+2019-12-04 15:41:51,756 INFO  Register subscriber for drm zone name...
+2019-12-04 15:41:51,756 INFO  Register subscriber for zdrmdata rest url...
+2019-12-04 15:41:51,758 INFO  Register subscriber for zdrmdata heartbeat url...
+2019-12-04 15:41:51,758 INFO  Register subscriber for zdrmdata server url...
+2019-12-04 15:41:51,777 INFO  DRM TR server started, port: 9877
+2019-12-04 15:41:51,777 INFO  Register TR handler for drm resource [com.alipay.zcache.log.rtsdemo]
+2019-12-04 15:41:51,777 INFO  Register attribute [logLevel]
+2019-12-04 15:41:51,779 INFO  Register zdrmdata subscribers for [com.alipay.zcache.log.rtsdemo]
+2019-12-04 15:41:51,781 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo.logLevel,version=3.0@DRM]
+2019-12-04 15:41:51,795 INFO  Query inital drm value was empty. app = rtsdemo, attribute = logLevel
+2019-12-04 15:41:51,819 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.log.rtsdemo,version=3.0] completed
+2019-12-04 15:42:38,904 INFO  Start building distributed resource ...
+2019-12-04 15:42:38,908 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0]
+2019-12-04 15:42:38,908 INFO  Register TR handler for drm resource [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
+2019-12-04 15:42:38,908 INFO  Register attribute [ldcTairWeight]
+2019-12-04 15:42:38,908 INFO  Register attribute [czoneSwitchMap]
+2019-12-04 15:42:38,908 INFO  Register attribute [refresh]
+2019-12-04 15:42:38,908 INFO  Register attribute [zonePolicy]
+2019-12-04 15:42:38,908 INFO  Register attribute [compressionType]
+2019-12-04 15:42:38,908 INFO  Register attribute [shardingRule]
+2019-12-04 15:42:38,908 INFO  Register attribute [useZoneMng]
+2019-12-04 15:42:38,908 INFO  Register attribute [cacheEngineUrl]
+2019-12-04 15:42:38,908 INFO  Register attribute [compressionThreshold]
+2019-12-04 15:42:38,908 INFO  Register attribute [elastic]
+2019-12-04 15:42:38,908 INFO  Register attribute [legacyRwWeight]
+2019-12-04 15:42:38,908 INFO  Register attribute [foReadPolicy]
+2019-12-04 15:42:38,909 INFO  Register attribute [serializationType]
+2019-12-04 15:42:38,909 INFO  Register attribute [nativeRuleZones]
+2019-12-04 15:42:38,909 INFO  Register attribute [useKeyRouteInfo]
+2019-12-04 15:42:38,909 INFO  Register zdrmdata subscribers for [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
+2019-12-04 15:42:38,909 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.ldcTairWeight,version=3.0@DRM]
+2019-12-04 15:42:38,926 INFO  Initialize drm value success. app = zdaltair, attribute = ldcTairWeight
+2019-12-04 15:42:38,926 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.czoneSwitchMap,version=3.0@DRM]
+2019-12-04 15:42:38,936 INFO  Query inital drm value was empty. app = zdaltair, attribute = czoneSwitchMap
+2019-12-04 15:42:38,936 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.refresh,version=3.0@DRM]
+2019-12-04 15:42:38,947 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.zonePolicy,version=3.0@DRM]
+2019-12-04 15:42:38,957 INFO  Query inital drm value was empty. app = zdaltair, attribute = zonePolicy
+2019-12-04 15:42:38,957 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionType,version=3.0@DRM]
+2019-12-04 15:42:38,965 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionType
+2019-12-04 15:42:38,966 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.shardingRule,version=3.0@DRM]
+2019-12-04 15:42:38,974 INFO  Query inital drm value was empty. app = zdaltair, attribute = shardingRule
+2019-12-04 15:42:38,974 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useZoneMng,version=3.0@DRM]
+2019-12-04 15:42:38,985 INFO  Initialize drm value success. app = zdaltair, attribute = useZoneMng
+2019-12-04 15:42:38,985 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.cacheEngineUrl,version=3.0@DRM]
+2019-12-04 15:42:38,995 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
+2019-12-04 15:42:39,003 INFO  Query inital drm value was empty. app = zdaltair, attribute = cacheEngineUrl
+2019-12-04 15:42:39,005 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.compressionThreshold,version=3.0@DRM]
+2019-12-04 15:42:39,013 INFO  Query inital drm value was empty. app = zdaltair, attribute = compressionThreshold
+2019-12-04 15:42:39,013 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.elastic,version=3.0@DRM]
+2019-12-04 15:42:39,023 INFO  Query inital drm value was empty. app = zdaltair, attribute = elastic
+2019-12-04 15:42:39,024 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.legacyRwWeight,version=3.0@DRM]
+2019-12-04 15:42:39,034 INFO  Query inital drm value was empty. app = zdaltair, attribute = legacyRwWeight
+2019-12-04 15:42:39,034 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.foReadPolicy,version=3.0@DRM]
+2019-12-04 15:42:39,043 INFO  Query inital drm value was empty. app = zdaltair, attribute = foReadPolicy
+2019-12-04 15:42:39,044 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.serializationType,version=3.0@DRM]
+2019-12-04 15:42:39,053 INFO  Query inital drm value was empty. app = zdaltair, attribute = serializationType
+2019-12-04 15:42:39,054 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.nativeRuleZones,version=3.0@DRM]
+2019-12-04 15:42:39,065 INFO  Query inital drm value was empty. app = zdaltair, attribute = nativeRuleZones
+2019-12-04 15:42:39,066 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID.useKeyRouteInfo,version=3.0@DRM]
+2019-12-04 15:42:39,078 INFO  Query inital drm value was empty. app = zdaltair, attribute = useKeyRouteInfo
+2019-12-04 15:42:39,078 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID,version=3.0] completed
+2019-12-04 15:42:39,082 INFO  Start building distributed resource ...
+2019-12-04 15:42:39,086 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0]
+2019-12-04 15:42:39,086 INFO  Register TR handler for drm resource [com.alipay.zcache.global]
+2019-12-04 15:42:39,086 INFO  Register attribute [grayElastic]
+2019-12-04 15:42:39,086 INFO  Register attribute [grayZones]
+2019-12-04 15:42:39,086 INFO  Register attribute [readBackToSource]
+2019-12-04 15:42:39,086 INFO  Register zdrmdata subscribers for [com.alipay.zcache.global]
+2019-12-04 15:42:39,086 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayElastic,version=3.0@DRM]
+2019-12-04 15:42:39,096 INFO  Query inital drm value was empty. app = zdaltair, attribute = grayElastic
+2019-12-04 15:42:39,096 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.grayZones,version=3.0@DRM]
+2019-12-04 15:42:39,106 INFO  Initialize drm value success. app = zdaltair, attribute = grayZones
+2019-12-04 15:42:39,107 INFO  Subscribe attribute[Alipay.zdaltair:name=com.alipay.zcache.global.readBackToSource,version=3.0@DRM]
+2019-12-04 15:42:39,118 INFO  Query inital drm value was empty. app = zdaltair, attribute = readBackToSource
+2019-12-04 15:42:39,119 INFO  Register distributed resource [Alipay.zdaltair:name=com.alipay.zcache.global,version=3.0] completed
+2019-12-04 15:42:39,121 INFO  Start building distributed resource ...
+2019-12-04 15:42:39,124 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0]
+2019-12-04 15:42:39,124 INFO  Register TR handler for drm resource [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
+2019-12-04 15:42:39,124 INFO  Register attribute [localCacheSwitch]
+2019-12-04 15:42:39,124 INFO  Register zdrmdata subscribers for [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
+2019-12-04 15:42:39,124 INFO  Subscribe attribute[Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID.localCacheSwitch,version=3.0@DRM]
+2019-12-04 15:42:39,135 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
+2019-12-04 15:42:39,145 INFO  Query inital drm value was empty. app = rtsdemo, attribute = localCacheSwitch
+2019-12-04 15:42:39,146 INFO  Register distributed resource [Alipay.rtsdemo:name=com.alipay.zcache.tbase.ALIPAYJSESSIONID,version=3.0] completed

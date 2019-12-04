@@ -1,96 +1,64 @@
-2019-12-03 19:11:10.253 [/] INFO  main - start init store instance.
-2019-12-03 19:11:10.254 [/] INFO  main - Initializing store instance success.StoreConfig{storeType='tair', appName='rtsdemo', cookieName=[ALIPAYJSESSIONID], maxInactiveInterval=600, storeLocalConfigurationPath='', globalVersionStrategy='merge', zdataConsoleUrl='http://zdataconsole-pool.stable.alipay.net:8080', drmUrl='http://zdrmdata.stable.alipay.net', zcacheTimeout=0, dbmode='dev', ldcMode='true', useDest=false}
-2019-12-03 19:11:37.696 [/] INFO  main - Session config info:
-2019-12-03 19:11:37.696 [/] INFO  main - appName=rtsdemo
-2019-12-03 19:11:37.696 [/] INFO  main - maxInactiveInterval=600
-2019-12-03 19:11:37.696 [/] INFO  main - sessionCookieEnable=true
-2019-12-03 19:11:37.696 [/] INFO  main - isMultiTenantMode=false
-2019-12-03 19:11:37.696 [/] INFO  main - sessionCookieName=[ALIPAYJSESSIONID]
-2019-12-03 19:11:37.696 [/] INFO  main - domainLevel=2
-2019-12-03 19:11:37.696 [/] INFO  main - cookieDomain=.alipay.net
-2019-12-03 19:11:37.696 [/] INFO  main - cookieMaxAge=0
-2019-12-03 19:11:37.696 [/] INFO  main - cookiePath=/
-2019-12-03 19:11:37.696 [/] INFO  main - sessionRepository = com.alipay.session.store.zcache.repository.TairSessionRepository@310f8a05
-2019-12-03 19:11:37.696 [/] INFO  main - logLevel=
-2019-12-03 19:11:37.696 [/] INFO  main - enabledIpRange=
-2019-12-03 19:11:37.696 [/] INFO  main - bindNetworkInterface=
-2019-12-03 19:11:37.696 [/] INFO  main - sessionCookieNameGenerator=
-2019-12-03 19:11:37.696 [/] INFO  main - accessRule=remote
-2019-12-03 19:11:37.696 [/] INFO  main - ldcFlag=true
-2019-12-03 19:11:37.696 [/] INFO  main - sessionWhiteListLocalPath=
-2019-12-03 19:11:37.696 [/] INFO  main - useWhiteList=false
-2019-12-03 19:11:37.696 [/] INFO  main - sessionMngUrl=null
-2019-12-03 19:11:37.696 [/] INFO  main - dbmode=dev
-2019-12-03 19:11:37.696 [/] INFO  main - storeType=tair
-2019-12-03 19:11:37.696 [/] INFO  main - globalVersionStrategy=merge
-2019-12-03 19:11:37.696 [/] INFO  main - ldcMode=true
-2019-12-03 19:11:37.696 [/] INFO  main - storeLocalConfigurationPath=
-2019-12-03 19:11:37.696 [/] INFO  main - zdataConsoleUrl=http://zdataconsole-pool.stable.alipay.net:8080
-2019-12-03 19:11:37.696 [/] INFO  main - drmUrl=http://zdrmdata.stable.alipay.net
-2019-12-03 19:11:37.696 [/] INFO  main - zcacheTimeout=0
-2019-12-03 19:11:37.696 [/] INFO  main - zcacheMaxThreadCount=0
-2019-12-03 19:11:37.696 [/] INFO  main - Session config info end.
-2019-12-03 19:37:58.008 [/] INFO  main - start init store instance.
-2019-12-03 19:37:58.009 [/] INFO  main - Initializing store instance success.StoreConfig{storeType='tair', appName='rtsdemo', cookieName=[ALIPAYJSESSIONID], maxInactiveInterval=600, storeLocalConfigurationPath='', globalVersionStrategy='merge', zdataConsoleUrl='http://zdataconsole-pool.stable.alipay.net:8080', drmUrl='http://zdrmdata.stable.alipay.net', zcacheTimeout=0, dbmode='dev', ldcMode='true', useDest=false}
-2019-12-03 19:38:25.358 [/] INFO  main - Session config info:
-2019-12-03 19:38:25.358 [/] INFO  main - appName=rtsdemo
-2019-12-03 19:38:25.358 [/] INFO  main - maxInactiveInterval=600
-2019-12-03 19:38:25.358 [/] INFO  main - sessionCookieEnable=true
-2019-12-03 19:38:25.358 [/] INFO  main - isMultiTenantMode=false
-2019-12-03 19:38:25.358 [/] INFO  main - sessionCookieName=[ALIPAYJSESSIONID]
-2019-12-03 19:38:25.358 [/] INFO  main - domainLevel=2
-2019-12-03 19:38:25.358 [/] INFO  main - cookieDomain=.alipay.net
-2019-12-03 19:38:25.358 [/] INFO  main - cookieMaxAge=0
-2019-12-03 19:38:25.358 [/] INFO  main - cookiePath=/
-2019-12-03 19:38:25.358 [/] INFO  main - sessionRepository = com.alipay.session.store.zcache.repository.TairSessionRepository@423762ae
-2019-12-03 19:38:25.358 [/] INFO  main - logLevel=
-2019-12-03 19:38:25.358 [/] INFO  main - enabledIpRange=
-2019-12-03 19:38:25.358 [/] INFO  main - bindNetworkInterface=
-2019-12-03 19:38:25.358 [/] INFO  main - sessionCookieNameGenerator=
-2019-12-03 19:38:25.358 [/] INFO  main - accessRule=remote
-2019-12-03 19:38:25.358 [/] INFO  main - ldcFlag=true
-2019-12-03 19:38:25.358 [/] INFO  main - sessionWhiteListLocalPath=
-2019-12-03 19:38:25.358 [/] INFO  main - useWhiteList=false
-2019-12-03 19:38:25.358 [/] INFO  main - sessionMngUrl=null
-2019-12-03 19:38:25.358 [/] INFO  main - dbmode=dev
-2019-12-03 19:38:25.358 [/] INFO  main - storeType=tair
-2019-12-03 19:38:25.358 [/] INFO  main - globalVersionStrategy=merge
-2019-12-03 19:38:25.358 [/] INFO  main - ldcMode=true
-2019-12-03 19:38:25.358 [/] INFO  main - storeLocalConfigurationPath=
-2019-12-03 19:38:25.358 [/] INFO  main - zdataConsoleUrl=http://zdataconsole-pool.stable.alipay.net:8080
-2019-12-03 19:38:25.358 [/] INFO  main - drmUrl=http://zdrmdata.stable.alipay.net
-2019-12-03 19:38:25.358 [/] INFO  main - zcacheTimeout=0
-2019-12-03 19:38:25.358 [/] INFO  main - zcacheMaxThreadCount=0
-2019-12-03 19:38:25.358 [/] INFO  main - Session config info end.
-2019-12-03 19:48:33.565 [/] INFO  main - start init store instance.
-2019-12-03 19:48:33.566 [/] INFO  main - Initializing store instance success.StoreConfig{storeType='tair', appName='rtsdemo', cookieName=[ALIPAYJSESSIONID], maxInactiveInterval=600, storeLocalConfigurationPath='', globalVersionStrategy='merge', zdataConsoleUrl='http://z-pool.bbb.net:8080', drmUrl='http://zd.aaa.bbb.net', zcacheTimeout=0, dbmode='dev', ldcMode='true', useDest=false}
-2019-12-03 19:49:32.242 [/] INFO  main - Session config info:
-2019-12-03 19:49:32.242 [/] INFO  main - appName=rtsdemo
-2019-12-03 19:49:32.242 [/] INFO  main - maxInactiveInterval=600
-2019-12-03 19:49:32.242 [/] INFO  main - sessionCookieEnable=true
-2019-12-03 19:49:32.242 [/] INFO  main - isMultiTenantMode=false
-2019-12-03 19:49:32.242 [/] INFO  main - sessionCookieName=[ALIPAYJSESSIONID]
-2019-12-03 19:49:32.242 [/] INFO  main - domainLevel=2
-2019-12-03 19:49:32.242 [/] INFO  main - cookieDomain=.alipay.net
-2019-12-03 19:49:32.242 [/] INFO  main - cookieMaxAge=0
-2019-12-03 19:49:32.242 [/] INFO  main - cookiePath=/
-2019-12-03 19:49:32.242 [/] INFO  main - sessionRepository = com.alipay.session.store.zcache.repository.TairSessionRepository@21ba0d33
-2019-12-03 19:49:32.242 [/] INFO  main - logLevel=
-2019-12-03 19:49:32.242 [/] INFO  main - enabledIpRange=
-2019-12-03 19:49:32.242 [/] INFO  main - bindNetworkInterface=
-2019-12-03 19:49:32.242 [/] INFO  main - sessionCookieNameGenerator=
-2019-12-03 19:49:32.242 [/] INFO  main - accessRule=remote
-2019-12-03 19:49:32.242 [/] INFO  main - ldcFlag=true
-2019-12-03 19:49:32.242 [/] INFO  main - sessionWhiteListLocalPath=
-2019-12-03 19:49:32.242 [/] INFO  main - useWhiteList=false
-2019-12-03 19:49:32.242 [/] INFO  main - sessionMngUrl=null
-2019-12-03 19:49:32.242 [/] INFO  main - dbmode=dev
-2019-12-03 19:49:32.242 [/] INFO  main - storeType=tair
-2019-12-03 19:49:32.242 [/] INFO  main - globalVersionStrategy=merge
-2019-12-03 19:49:32.242 [/] INFO  main - ldcMode=true
-2019-12-03 19:49:32.242 [/] INFO  main - storeLocalConfigurationPath=
-2019-12-03 19:49:32.242 [/] INFO  main - zdataConsoleUrl=http://z-pool.bbb.net:8080
-2019-12-03 19:49:32.242 [/] INFO  main - drmUrl=http://zd.aaa.bbb.net
-2019-12-03 19:49:32.242 [/] INFO  main - zcacheTimeout=0
-2019-12-03 19:49:32.242 [/] INFO  main - zcacheMaxThreadCount=0
-2019-12-03 19:49:32.242 [/] INFO  main - Session config info end.
+2019-12-04 09:50:16.793 [/] INFO  main - start init store instance.
+2019-12-04 09:50:16.794 [/] INFO  main - Initializing store instance success.StoreConfig{storeType='tair', appName='rtsdemo', cookieName=[ALIPAYJSESSIONID], maxInactiveInterval=600, storeLocalConfigurationPath='', globalVersionStrategy='merge', zdataConsoleUrl='http://z-pool.bbb.net:8080', drmUrl='http://zd.aaa.bbb.net', zcacheTimeout=0, dbmode='dev', ldcMode='true', useDest=false}
+2019-12-04 09:51:14.881 [/] INFO  main - Session config info:
+2019-12-04 09:51:14.881 [/] INFO  main - appName=rtsdemo
+2019-12-04 09:51:14.881 [/] INFO  main - maxInactiveInterval=600
+2019-12-04 09:51:14.881 [/] INFO  main - sessionCookieEnable=true
+2019-12-04 09:51:14.881 [/] INFO  main - isMultiTenantMode=false
+2019-12-04 09:51:14.881 [/] INFO  main - sessionCookieName=[ALIPAYJSESSIONID]
+2019-12-04 09:51:14.881 [/] INFO  main - domainLevel=2
+2019-12-04 09:51:14.881 [/] INFO  main - cookieDomain=.alipay.net
+2019-12-04 09:51:14.881 [/] INFO  main - cookieMaxAge=0
+2019-12-04 09:51:14.881 [/] INFO  main - cookiePath=/
+2019-12-04 09:51:14.881 [/] INFO  main - sessionRepository = com.alipay.session.store.zcache.repository.TairSessionRepository@64887fbc
+2019-12-04 09:51:14.881 [/] INFO  main - logLevel=
+2019-12-04 09:51:14.881 [/] INFO  main - enabledIpRange=
+2019-12-04 09:51:14.881 [/] INFO  main - bindNetworkInterface=
+2019-12-04 09:51:14.881 [/] INFO  main - sessionCookieNameGenerator=
+2019-12-04 09:51:14.881 [/] INFO  main - accessRule=remote
+2019-12-04 09:51:14.881 [/] INFO  main - ldcFlag=true
+2019-12-04 09:51:14.881 [/] INFO  main - sessionWhiteListLocalPath=
+2019-12-04 09:51:14.881 [/] INFO  main - useWhiteList=false
+2019-12-04 09:51:14.881 [/] INFO  main - sessionMngUrl=null
+2019-12-04 09:51:14.881 [/] INFO  main - dbmode=dev
+2019-12-04 09:51:14.881 [/] INFO  main - storeType=tair
+2019-12-04 09:51:14.881 [/] INFO  main - globalVersionStrategy=merge
+2019-12-04 09:51:14.881 [/] INFO  main - ldcMode=true
+2019-12-04 09:51:14.881 [/] INFO  main - storeLocalConfigurationPath=
+2019-12-04 09:51:14.881 [/] INFO  main - zdataConsoleUrl=http://z-pool.bbb.net:8080
+2019-12-04 09:51:14.881 [/] INFO  main - drmUrl=http://zd.aaa.bbb.net
+2019-12-04 09:51:14.881 [/] INFO  main - zcacheTimeout=0
+2019-12-04 09:51:14.881 [/] INFO  main - zcacheMaxThreadCount=0
+2019-12-04 09:51:14.881 [/] INFO  main - Session config info end.
+2019-12-04 15:41:31.046 [/] INFO  main - start init store instance.
+2019-12-04 15:41:31.047 [/] INFO  main - Initializing store instance success.StoreConfig{storeType='tair', appName='rtsdemo', cookieName=[ALIPAYJSESSIONID], maxInactiveInterval=600, storeLocalConfigurationPath='', globalVersionStrategy='merge', zdataConsoleUrl='http://z-pool.bbb.net:8080', drmUrl='http://zd.aaa.bbb.net', zcacheTimeout=0, dbmode='dev', ldcMode='true', useDest=false}
+2019-12-04 15:42:39.152 [/] INFO  main - Session config info:
+2019-12-04 15:42:39.152 [/] INFO  main - appName=rtsdemo
+2019-12-04 15:42:39.152 [/] INFO  main - maxInactiveInterval=600
+2019-12-04 15:42:39.152 [/] INFO  main - sessionCookieEnable=true
+2019-12-04 15:42:39.152 [/] INFO  main - isMultiTenantMode=false
+2019-12-04 15:42:39.152 [/] INFO  main - sessionCookieName=[ALIPAYJSESSIONID]
+2019-12-04 15:42:39.152 [/] INFO  main - domainLevel=2
+2019-12-04 15:42:39.152 [/] INFO  main - cookieDomain=.alipay.net
+2019-12-04 15:42:39.152 [/] INFO  main - cookieMaxAge=0
+2019-12-04 15:42:39.152 [/] INFO  main - cookiePath=/
+2019-12-04 15:42:39.152 [/] INFO  main - sessionRepository = com.alipay.session.store.zcache.repository.TairSessionRepository@6978a32a
+2019-12-04 15:42:39.152 [/] INFO  main - logLevel=
+2019-12-04 15:42:39.152 [/] INFO  main - enabledIpRange=
+2019-12-04 15:42:39.152 [/] INFO  main - bindNetworkInterface=
+2019-12-04 15:42:39.152 [/] INFO  main - sessionCookieNameGenerator=
+2019-12-04 15:42:39.152 [/] INFO  main - accessRule=remote
+2019-12-04 15:42:39.152 [/] INFO  main - ldcFlag=true
+2019-12-04 15:42:39.152 [/] INFO  main - sessionWhiteListLocalPath=
+2019-12-04 15:42:39.152 [/] INFO  main - useWhiteList=false
+2019-12-04 15:42:39.152 [/] INFO  main - sessionMngUrl=null
+2019-12-04 15:42:39.152 [/] INFO  main - dbmode=dev
+2019-12-04 15:42:39.152 [/] INFO  main - storeType=tair
+2019-12-04 15:42:39.152 [/] INFO  main - globalVersionStrategy=merge
+2019-12-04 15:42:39.152 [/] INFO  main - ldcMode=true
+2019-12-04 15:42:39.152 [/] INFO  main - storeLocalConfigurationPath=
+2019-12-04 15:42:39.152 [/] INFO  main - zdataConsoleUrl=http://z-pool.bbb.net:8080
+2019-12-04 15:42:39.152 [/] INFO  main - drmUrl=http://zd.aaa.bbb.net
+2019-12-04 15:42:39.152 [/] INFO  main - zcacheTimeout=0
+2019-12-04 15:42:39.152 [/] INFO  main - zcacheMaxThreadCount=0
+2019-12-04 15:42:39.152 [/] INFO  main - Session config info end.

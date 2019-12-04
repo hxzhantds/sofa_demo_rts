@@ -1,0 +1,5 @@
+com.alipay.rtsdemo.junit.test.usercases.UserServiceJunitTest
+com/alipay/rtsdemo/junit/test/usercases/UserServiceJunitTest:<init>:()V
+com/alipay/rtsdemo/junit/test/usercases/UserServiceJunitTest:testGetMessage:()V
+com/alipay/rtsdemo/service/SampleServiceImpl:<init>:()V
+com/alipay/rtsdemo/service/SampleServiceImpl:message:()Ljava/lang/String;

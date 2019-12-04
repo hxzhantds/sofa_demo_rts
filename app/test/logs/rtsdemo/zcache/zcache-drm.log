@@ -1,30 +1,20 @@
-2019-12-03 19:11:36,299 [main] INFO  ZCACHE-DRM - F--register log drm success with [rtsdemo]
-2019-12-03 19:11:37,239 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [ldcTairWeight], value [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]]
-2019-12-03 19:11:37,241 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] change ldc weight with [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]] success
-2019-12-03 19:11:37,376 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [useZoneMng], value [Y]
-2019-12-03 19:11:37,376 [main] WARN  ZCACHE-DRM - F--zcache drm [ALIPAYJSESSIONID] change useZoneMng to true success
-2019-12-03 19:11:37,563 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:11:37,619 [main] INFO  ZCACHE-DRM - F--zcache [ global ] receive drm key [grayZones], value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X]
-2019-12-03 19:11:37,619 [main] INFO  ZCACHE-DRM - F--zcache drm change grayZones with value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X] success
-2019-12-03 19:11:37,645 [main] INFO  ZCACHE-DRM - F--register drm success for globals
-2019-12-03 19:11:37,690 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
-2019-12-03 19:38:24,053 [main] INFO  ZCACHE-DRM - F--register log drm success with [rtsdemo]
-2019-12-03 19:38:24,898 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [ldcTairWeight], value [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]]
-2019-12-03 19:38:24,900 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] change ldc weight with [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]] success
-2019-12-03 19:38:25,018 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [useZoneMng], value [Y]
-2019-12-03 19:38:25,018 [main] WARN  ZCACHE-DRM - F--zcache drm [ALIPAYJSESSIONID] change useZoneMng to true success
-2019-12-03 19:38:25,211 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:38:25,263 [main] INFO  ZCACHE-DRM - F--zcache [ global ] receive drm key [grayZones], value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X]
-2019-12-03 19:38:25,263 [main] INFO  ZCACHE-DRM - F--zcache drm change grayZones with value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X] success
-2019-12-03 19:38:25,286 [main] INFO  ZCACHE-DRM - F--register drm success for globals
-2019-12-03 19:38:25,352 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
-2019-12-03 19:48:59,623 [main] INFO  ZCACHE-DRM - F--register log drm success with [rtsdemo]
-2019-12-03 19:49:31,791 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [ldcTairWeight], value [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]]
-2019-12-03 19:49:31,793 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] change ldc weight with [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]] success
-2019-12-03 19:49:31,922 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [useZoneMng], value [Y]
-2019-12-03 19:49:31,922 [main] WARN  ZCACHE-DRM - F--zcache drm [ALIPAYJSESSIONID] change useZoneMng to true success
-2019-12-03 19:49:32,136 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
-2019-12-03 19:49:32,176 [main] INFO  ZCACHE-DRM - F--zcache [ global ] receive drm key [grayZones], value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X]
-2019-12-03 19:49:32,176 [main] INFO  ZCACHE-DRM - F--zcache drm change grayZones with value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X] success
-2019-12-03 19:49:32,200 [main] INFO  ZCACHE-DRM - F--register drm success for globals
-2019-12-03 19:49:32,238 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
+2019-12-04 09:50:43,161 [main] INFO  ZCACHE-DRM - F--register log drm success with [rtsdemo]
+2019-12-04 09:51:14,700 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [ldcTairWeight], value [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]]
+2019-12-04 09:51:14,701 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] change ldc weight with [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]] success
+2019-12-04 09:51:14,752 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [useZoneMng], value [Y]
+2019-12-04 09:51:14,752 [main] WARN  ZCACHE-DRM - F--zcache drm [ALIPAYJSESSIONID] change useZoneMng to true success
+2019-12-04 09:51:14,827 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
+2019-12-04 09:51:14,848 [main] INFO  ZCACHE-DRM - F--zcache [ global ] receive drm key [grayZones], value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X]
+2019-12-04 09:51:14,848 [main] INFO  ZCACHE-DRM - F--zcache drm change grayZones with value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X] success
+2019-12-04 09:51:14,857 [main] INFO  ZCACHE-DRM - F--register drm success for globals
+2019-12-04 09:51:14,877 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zcache.tbase.ALIPAYJSESSIONID]
+2019-12-04 15:41:56,865 [main] INFO  ZCACHE-DRM - F--register log drm success with [rtsdemo]
+2019-12-04 15:42:38,923 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [ldcTairWeight], value [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]]
+2019-12-04 15:42:38,925 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] change ldc weight with [[{"weight":"ALIPAYJSESSIONIDRZ00:r10w10,ALIPAYJSESSIONIDRZ01:r00w00,ALIPAYJSESSIONIDRZ30:r00w00","tairIndex":"RZ00"}]] success
+2019-12-04 15:42:38,985 [main] INFO  ZCACHE-DRM - F--zcache [ALIPAYJSESSIONID] receive drm key [useZoneMng], value [Y]
+2019-12-04 15:42:38,985 [main] WARN  ZCACHE-DRM - F--zcache drm [ALIPAYJSESSIONID] change useZoneMng to true success
+2019-12-04 15:42:39,078 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zdal.ldc.tair.ALIPAYJSESSIONID]
+2019-12-04 15:42:39,106 [main] INFO  ZCACHE-DRM - F--zcache [ global ] receive drm key [grayZones], value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X]
+2019-12-04 15:42:39,106 [main] INFO  ZCACHE-DRM - F--zcache drm change grayZones with value [RZ88X,RZ88Y,CZ88X,CZ88Y,CZ88Z,GZ00X] success
+2019-12-04 15:42:39,119 [main] INFO  ZCACHE-DRM - F--register drm success for globals
+2019-12-04 15:42:39,146 [main] INFO  ZCACHE-DRM - F--register drm success with [com.alipay.zcache.tbase.ALIPAYJSESSIONID]

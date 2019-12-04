@@ -1,3 +1,0 @@
-$tile.setTemplate("home:header.vm")
-#parse($!__screen)
-$tile.setTemplate("home:footer.vm")

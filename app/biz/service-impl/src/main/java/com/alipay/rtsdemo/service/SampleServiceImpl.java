@@ -14,4 +14,15 @@ public class SampleServiceImpl implements SampleService {
     public User getUser() {
         return new User("lisi", 22, message());
     }
+
+    @Override
+    public User getUserById(int id) {
+        return new User("wangwu", id, message());
+    }
+
+    @Override
+    public User createUserByName(String name) {
+        return new User(name, 12, message());
+    }
+
 }
